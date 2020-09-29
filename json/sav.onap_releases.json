@@ -1,0 +1,88 @@
+[
+{"release_name":"Amsterdam",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "amsterdam",
+        "release_status": "(16-Nov-2017)"
+},
+
+{"release_name":"Beijing",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "beijing",
+        "release_status": "(07-Jun-2018)"
+},
+
+{"release_name":"Casablanca",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "casablanca",
+        "release_status": "(30-Nov-2018)"
+},
+
+{"release_name":"Dublin",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "dublin",
+        "release_status": "(13-Jun-2019)"
+},
+
+{"release_name":"El Alto",
+
+        "image_uri" : "elalto/images/Master-onap-diagram.png",
+        "image_sz" : 1280,
+        "release_value" : "elalto",
+        "release_status": "(10-Oct-2019)"
+},
+
+{"release_name":"Frankfurt",
+        "image_uri" : "frankfurt/images/Master-onap-diagram.png",
+        "image_sz" : 1280,
+        "release_value" : "frankfurt",
+        "release_status": "(04-Jun-2020)"
+},
+
+{"release_name":"Guilin",
+        "image_uri" : "guilin/images/Master-onap-diagram.png",
+        "image_sz" : "1280",
+        "release_value" : "guilin",
+        "release_status": "current - (in Dev)"
+},
+
+{"release_name":"Honolulu",
+        "image_uri" : "Not set yet (update json/onap_releases.json)",
+        "image_sz" : "Not set yet",
+        "release_value" : "honolulu",
+        "release_status": "future"
+},
+
+{"release_name":"Istanbul",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "istanbul",
+        "release_status": "future"
+},
+
+{"release_name":"Koyoto",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "koyoto",
+        "release_status": "future"
+},
+
+{"release_name":"Montreal",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "montreal",
+        "release_status": "future"
+},
+
+{"release_name":"New Delhi",
+        "image_uri" : "Not set yet",
+        "image_sz" : "Not set yet",
+        "release_value" : "newdelhi",
+        "release_status": "future"
+}
+
+]
+

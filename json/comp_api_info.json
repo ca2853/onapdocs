@@ -1,0 +1,132 @@
+[
+{
+       	"comp_name": "DCAE",
+	"api": [
+	 	{
+			"name":"E5-REST-Conf", 
+			"shape": "rect",
+			"coords": "103,1002,275,1101",
+			"href":"https://wiki.onap.org/display/DW/RESTful+API+Design+Specification",
+			"target": "__blank"
+		},
+		{	
+			"name":"E2-HV-VES",
+			"shape": "rect",
+			"coords": "489,1004,661,1103",
+			"href":"html/docs_offeredapis_api_serviceOrder_index.html",
+			"target": "__blank"
+		}
+	]
+},
+{
+	"comp_name": "SO",
+        "api": [
+		{"name":"SO-E-01 Overview",
+			"shape": "rect",
+			"coords": "615,131,667,202",
+			"href":"html/so_offered_apis.html",
+			 "target": "__blank"
+		},
+		{
+			"name":"Netconf",
+			"shape": "rect",
+			"coords": "619,628,703,681",
+			"href":"html/docs_offeredapis_api_serviceOrder_index.html",
+			 "target": "__blank"
+		}
+	]
+},
+{
+	"comp_name": "SDNC",
+        "api": [
+		{
+			"name":"SDNC Overview",
+			"shape": "rect",
+			"coords": "327,189,1000,488",
+			"href":"https://docs.onap.org/en/elalto/guides/onap-developer/developing/index.html#common-controller-software-development-kit",
+			 "target": "__blank"
+		},
+		{
+			"name":"Chef",
+			"shape": "rect",
+			"coords": "479,628,563,681",
+			"href":"html/VES_collector.html",
+			 "target": "__blank"
+		},
+		{
+			"name":"Ansible",
+			"shape": "rect",
+			"coords": "760,627,844,680",
+			"href":"html/VES_collector.html",
+			 "target": "__blank"
+		},
+		{
+			"name":"Netconf",
+			"shape": "rect",
+			"coords": "619,628,703,681",
+			"href":"html/docs_offeredapis_api_serviceOrder_index.html",
+			"target": "__blank"
+	}
+
+
+	]
+},
+{
+	"comp_name": "EXTAPI",
+	"api": [
+
+		{
+			"name":"Service Spec",
+			"shape": "rect",
+			"coords": "40,46,194,87",
+			"href":"https://wiki.onap.org/display/DW/RESTful+API+Design+Specification",
+			 "target": "__blank"
+		},
+		{
+			"name":"Callback for Listener",
+			"shape": "rect",
+			"coords": "179,5,295,41",
+			"href":"https://wiki.onap.org/display/DW/RESTful+API+Design+Specification",
+			 "target": "__blank"
+		},
+		{
+			"name":"Hub",
+			"shape": "rect",
+			"coords": "259,44,342,79",
+			"href":"https://wiki.onap.org/display/DW/RESTful+API+Design+Specification",
+			 "target": "__blank"
+		},
+		{
+			"name":"Service",
+			"shape": "rect",
+			"coords": "708,50,804,85",
+			"href":"https://wiki.onap.org/display/DW/RESTful+API+Design+Specification",
+			 "target": "__blank"
+		},
+		{
+			"name":"Service Inventory API",
+			"shape": "rect",
+			"coords": "516,286,633,314",
+			"href":"html/docs_offeredapis_api_serviceinventory.html",
+			 "target": "__blank"
+		},
+		{
+			"name":"Service Catalog",
+			"shape": "rect",
+			"coords": "69,289,173,320",
+			"href":"html/docs_offeredapis_api_serviceCatalog_index.html",
+			 "target": "__blank"
+		},
+		{
+			"name":"Service Order",
+			"shape": "rect",
+			"coords": "498,43,623,81",
+			"href":"html/docs_offeredapis_api_serviceOrder_index.html",
+			 "target": "__blank"
+		}
+
+
+	]
+	}
+]
+

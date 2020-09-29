@@ -1,0 +1,23 @@
+<?php
+#$_POST = array(
+#	'release'=>'amsterdam',
+#	'doc_type'=>'arch-overview',
+#);
+
+$page_header = array(
+	'arch-overview'=>'Architecture Overview',
+	'dev-guide'=>'Developer\'s Guide',
+	'devops-guide'=>'Dev Ops',
+	'user-guide'=>'User Guide',
+);
+
+$doc_type = $_POST["doc_type"];
+#echo "***".$doc_type."*****\n";
+$doc_type_name = $page_header[$doc_type];
+#echo "<<<< ".$doc_type_name." >>>>"."\n";
+echo "<H3 id=\"main_menu_title_medium\">";
+echo "<center>".$doc_type_name."</center></H3>"
+#$doc_type_title = $page_header[$doc_type_name];
+#echo "<<<< ".$doc_type_title." >>>>"."\n";
+?> 
+

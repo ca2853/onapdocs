@@ -1,0 +1,24 @@
+
+[
+{"name":"Service Spec",
+	"shape": "rect",
+	"coords": "40,46,194,87",
+        "href":"https://wiki.onap.org/display/DW/RESTful+API+Design+Specification",
+         "target": "__blank"
+},
+
+{"name":"RESTconf",
+        "shape": "rect",
+        "coords": "45,498,143,570",
+        "href":"html/VES_collector.html",
+         "target": "__blank"
+},
+
+{"name":"Service Order",
+        "shape": "rect",
+        "coords": "498,43,623,81",
+        "href":"html/docs_offeredapis_api_serviceOrder_index.html",
+         "target": "__blank"
+}
+]
+

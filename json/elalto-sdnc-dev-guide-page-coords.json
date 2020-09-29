@@ -1,0 +1,29 @@
+[
+{"name":"SDNC Overview",
+        "shape": "rect",
+        "coords": "327,189,1000,488",
+        "href":"https://docs.onap.org/en/elalto/guides/onap-developer/developing/index.html#common-controller-software-development-kit",
+         "target": "__blank"
+},
+
+{"name":"Chef",
+        "shape": "rect",
+        "coords": "479,628,563,681",
+        "href":"html/VES_collector.html",
+         "target": "__blank"
+},
+
+{"name":"Ansible",
+        "shape": "rect",
+        "coords": "760,627,844,680",
+        "href":"html/VES_collector.html",
+         "target": "__blank"
+},
+
+{"name":"Netconf",
+        "shape": "rect",
+        "coords": "619,628,703,681",
+        "href":"html/docs_offeredapis_api_serviceOrder_index.html",
+         "target": "__blank"
+}
+]
