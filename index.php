@@ -68,7 +68,7 @@ p.c {
 <body>
 <H3 id="main_menu_title_large"><center><?php include 'php/get_main_title.php' ?></center></H3>
 <H2 id="main_menu_title_medium"><center><?php include 'php/get_sub_title.php' ?></center></H2>
-<H1 id="main_menu_title_small"><center>Release:<font size="2" color="blue">(<?php include 'php/get_release_name.php' ?>)</font></center></H1>
+<H1 id="main_menu_title_small"><center>Release:<font size="2" color="<?php include 'php/get_release_color.php' ?>">(<?php include 'php/get_release_name.php' ?>)</font></center></H1>
 
 <div id="main_menu_wrapper">
 
@@ -78,13 +78,8 @@ p.c {
 	<?php include 'pulldown_menu1.php';?>
 </select>
 <select name="doc_type">
-	<option selected="yes" value="arch-overview">Architecture Overview </option>
-	<!--option value="user-guide">User Guide</option--> 
-	<option value="dev-guide">Components Architecture</option> 
-	<option value="flows">Flows</option> 
-	<!--option value="devops-guide">DevOps Guide</option--> 
+	<?php include 'pulldown_menu2.php';?>
 </select>
-
 <select name="doc_type1">
 	<option selected="yes" value="MoreOption-Guide">More Options.... </option>
 	<option value="option1-Guide">Option 1 </option>

@@ -2,7 +2,7 @@
 ini_set('session.cache_limiter', 'private');	
 
 // Read JSON file
-$file_name = 'json/onap_releases.json';
+$file_name = 'json/main_menu_options.json';
 $readjson = file_get_contents($file_name);
 
 //Decode JSON
@@ -12,18 +12,17 @@ $data = json_decode($readjson, true);
 //Parse the employee name
 
 
-foreach ($data as $loc) {
+foreach ($data as $menu_option) {
   #echo "<p><b>Row number $row</b></p>";
   #echo "<ul>";
 		echo "<option Value=\"";
-		echo $loc['release_value'];
-		//if ($loc['release_status']  == "current")
-		if (strcmp($loc['display_default'], "yes") == 0)
+		echo $menu_option['option_name'];
+
+		if (strcmp($menu_option['display_default'], "yes") == 0)
 			echo "\" selected> ";
 		else
 			echo "\"> ";
-		echo $loc['release_name'];
-		echo " - " . $loc['release_status'];
+		echo $menu_option['option_value'];
 		echo "</option>";
 		echo "\n";
 }
