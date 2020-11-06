@@ -3,28 +3,36 @@
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "amsterdam",
-        "release_status": "(16-Nov-2017)"
+        "release_status": "(16-Nov-2017)",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"Beijing",
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "beijing",
-        "release_status": "(07-Jun-2018)"
+        "release_status": "(07-Jun-2018)",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"Casablanca",
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "casablanca",
-        "release_status": "(30-Nov-2018)"
+        "release_status": "(30-Nov-2018)",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"Dublin",
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "dublin",
-        "release_status": "(13-Jun-2019)"
+        "release_status": "(13-Jun-2019)",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"El Alto",
@@ -32,57 +40,74 @@
         "image_uri" : "elalto/images/Master-onap-diagram.png",
         "image_sz" : 1280,
         "release_value" : "elalto",
-        "release_status": "(10-Oct-2019)"
+        "release_status": "(10-Oct-2019)",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"Frankfurt",
         "sav_image_uri" : "frankfurt/images/Master-onap-diagram.png",
-        "image_uri" : "https://wiki.onap.org/download/attachments/84651745/official-onap-diagram-frankfurt.png?api=v2",
+        "image_uri" : "https://wiki.onap.org/download/attachments/84651745/master-onap-diagram-frankfurt-sep-04-2020.png?api=v2",
         "image_sz" : 1280,
         "release_value" : "frankfurt",
-        "release_status": "current (04-Jun-2020)"
+        "release_status": "current (04-Jun-2020)",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"Guilin",
-        "image_uri" : "guilin/images/Master-onap-diagram.png",
+        "sav_image_uri" : "guilin/images/Master-onap-diagram.png",
+        "image_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-guilin-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
         "image_sz" : "1280",
         "release_value" : "guilin",
-        "release_status": "(in Dev)"
+        "release_status": "(in Dev)",
+        "release_color": "blue",
+        "display_default": "yes"
 },
 
 {"release_name":"Honolulu",
         "image_uri" : "Not set yet (update json/onap_releases.json)",
         "image_sz" : "Not set yet",
         "release_value" : "honolulu",
-        "release_status": "future"
+        "release_status": "future",
+        "release_color": "green",
+        "display_default": "no"
 },
 
 {"release_name":"Istanbul",
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "istanbul",
-        "release_status": "future"
+        "release_status": "future",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"Koyoto",
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "koyoto",
-        "release_status": "future"
+        "release_status": "future",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"Montreal",
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "montreal",
-        "release_status": "future"
+        "release_status": "future",
+        "release_color": "blue",
+        "display_default": "no"
 },
 
 {"release_name":"New Delhi",
         "image_uri" : "Not set yet",
         "image_sz" : "Not set yet",
         "release_value" : "newdelhi",
-        "release_status": "future"
+        "release_status": "future",
+        "release_color": "blue",
+        "display_default": "no"
 }
 
 ]

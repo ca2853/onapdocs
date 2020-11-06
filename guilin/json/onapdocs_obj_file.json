@@ -4,11 +4,11 @@
 	"name":"ONAP Overview",
 	"shape":"rect",
 	"coords":"103,35,311,92",
-	"a_href":"https://docs.onap.org/en/frankfurt/guides/overview/index.html",
-	"d_href":"https://docs.onap.org/en/frankfurt/guides/overview/index.html",
+	"a_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
 	"target":"__blank",
 	"comp_detail" : {
-                "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-guilin-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
                 "img_uri_sz_w" : "2186", 
                 "img_uri_sz_h" : "1716", 
                 "api" : [
@@ -26,11 +26,11 @@
 	},
 	{
 	"id":"area2",
-	"name":"El Alto",
+	"name":"Frankfurt",
 	"shape":"rect",
 	"coords":"26,12,87,35",
-	"a_href":"https://docs.onap.org/en/frankfurt/release/index.html",
-	"d_href":"https://docs.onap.org/en/frankfurt/release/index.html",
+	"a_href":"https://docs.onap.org/en/latest/release/index.html",
+	"d_href":"https://docs.onap.org/en/latest/release/index.html",
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
@@ -53,7 +53,7 @@
 	"name":"Service/xNF Design",
 	"shape":"rect",
 	"coords":"46,240,172,251",
-	"a_href":"https://docs.onap.org/en/frankfurt/guides/onap-user/design/service-design/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-sdc/en/latest/architecture.html#",
 	"d_href":"https://docs.onap.org/en/frankfurt/guides/onap-user/design/service-design/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -77,7 +77,7 @@
 	"name":"XNF Onboarding",
 	"shape":"rect",
 	"coords":"47,256,173,267",
-	"a_href":"https://docs.onap.org/en/frankfurt/guides/onap-user/design/pre-onboarding/index.html#validate-xnf-package-vnf-pnf",
+	"a_href":"https://docs.onap.org/en/latest/guides/onap-user/design/pre-onboarding/index.html#validate-xnf-package-vnf-pnf",
 	"d_href":"https://docs.onap.org/en/frankfurt/guides/onap-user/design/pre-onboarding/index.html#validate-xnf-package-vnf-pnf",
 	"target":"__blank",
 	"comp_detail" : {
@@ -98,10 +98,10 @@
 	},
 	{
 	"id":"area5",
-	"name":" WorkFlow Designer",
+	"name":"Workflow Designer",
 	"shape":"rect",
 	"coords":"47,271,173,282",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/sdc.git/docs/workflow.html",
+	"a_href":"https://docs.onap.org/projects/onap-sdc/en/latest/workflow.html",
 	"d_href":"https://docs.onap.org/en/frankfurt/submodules/sdc.git/docs/workflow.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -125,7 +125,7 @@
 	"name":"Controller Design Studio",
 	"shape":"rect",
 	"coords":"47,287,173,298",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/ccsdk/cds.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-ccsdk-cds/en/latest/index.html",
 	"d_href":"https://docs.onap.org/en/frankfurt/submodules/ccsdk/cds.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -149,7 +149,7 @@
 	"name":"DCAE Design Studio",
 	"shape":"rect",
 	"coords":"47,301,173,312",
-	"a_href":"https://onap-doc.readthedocs.io/projects/onap-dcaegen2/en/frankfurt/sections/design-components/index-onboarding.html",
+	"a_href":"https://docs.onap.org/projects/onap-dcaegen2/en/latest/sections/design-components/index-onboarding.html",
 	"d_href":"https://onap-doc.readthedocs.io/projects/onap-dcaegen2/en/frankfurt/sections/design-components/index-onboarding.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -159,30 +159,6 @@
                 "api" : [
 				{
 				"id":"api07",
-				"name" : "Not Populated Yet",
-				"shape" : "",
-				"coords" : "",
-				"href" : "",
-				"target" : "__blank"
-				}
-			]
-                }
-	},
-	{
-	"id":"area8",
-	"name":"DCAE Design Studio",
-	"shape":"rect",
-	"coords":"47,301,173,312",
-	"a_href":"https://wiki.onap.org/display/DW/DCAE-Design+Studio/",
-	"d_href":"https://docs.onap.org/en/casablanca/submodules/sdc.git/docs/dcaedesigner.html",
-	"target":"__blank",
-	"comp_detail" : {
-                "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
-                "img_uri_sz_w" : "2186", 
-                "img_uri_sz_h" : "1716", 
-                "api" : [
-				{
-				"id":"api08",
 				"name" : "Not Populated Yet",
 				"shape" : "",
 				"coords" : "",
@@ -221,11 +197,11 @@
 	"name":"SDN Controller",
 	"shape":"rect",
 	"coords":"443,268,521,337",
-	"a_href":"https://docs.onap.org/en/frankfurt/guides/onap-developer/developing/index.html#common-controller-software-development-kit",
+	"a_href":"https://docs.onap.org/projects/onap-sdnc-oam/en/latest/",
 	"d_href":"process_sdnc.php",
 	"target":"__blank",
 	"comp_detail" : {
-                "img_uri" : "https://wiki.onap.org/download/attachments/81402024/sdnc_r7.png?api=v2",
+                "img_uri" : "https://wiki.onap.org/download/attachments/71830074/sdnc_r6.png?api=v2",
                 "img_uri_sz_w" : "2186", 
                 "img_uri_sz_h" : "1716", 
                 "api" : [
@@ -269,7 +245,7 @@
 	"name":"APPC",
 	"shape":"rect",
 	"coords":"539,268,617,337",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/appc/deployment.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-appc/en/latest/index.html#master-index",
 	"d_href":"process_appc.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -301,7 +277,7 @@
 	"name":"VFC",
 	"shape":"rect",
 	"coords":"634,270,712,339",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/vfc/nfvo/lcm.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-vfc-nfvo-lcm/en/latest/index.html#master-index",
 	"d_href":"process_vfc.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -326,7 +302,7 @@
 	"name":"DCAE",
 	"shape":"rect",
 	"coords":"218,266,310,286",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/dcaegen2.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-dcaegen2/en/latest/index.html#master-index",
 	"d_href":"process_dcae.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -390,7 +366,7 @@
 	"name":"VES",
 	"shape":"rect",
 	"coords":"219,316,306,338",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/dcaegen2.git/docs/sections/apis/ves.html",
+	"a_href":"https://docs.onap.org/projects/onap-dcaegen2/en/latest/sections/services/ves-http/index.html",
 	"d_href":"process_dcae.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -414,8 +390,8 @@
 	"name":"Holmes",
 	"shape":"rect",
 	"coords":"220,286,309,314",
-	"aa_href":"https://docs.onap.org/en/frankfurt/submodules/holmes/rule-management.git/docs/index.html",
-	"a_href":"holmes_deprecated.php",
+	"a_href":"https://docs.onap.org/projects/onap-holmes-rule-management/en/latest/index.html#master-index",
+	"aa_href":"holmes_deprecated.php",
 	"d_href":"process_holmes.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -435,59 +411,11 @@
                 }
 	},
 	{
-	"id":"area16",
-	"name":"DCAE Design Studio",
-	"shape":"rect",
-	"coords":"43,284,163,296",
-	"a_href":"https://docs.onap.org/en/casablanca/submodules/sdc.git/docs/dcaedesigner.html",
-	"d_href":"https://wiki.onap.org/display/DW/DCAE-Design+Studio/",
-	"target":"__blank",
-	"comp_detail" : {
-                "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
-                "img_uri_sz_w" : "2186", 
-                "img_uri_sz_h" : "1716", 
-                "api" : [
-				{
-				"id":"api18",
-				"name" : "Not Populated Yet",
-				"shape" : "",
-				"coords" : "",
-				"href" : "",
-				"target" : "__blank"
-				}
-			]
-                }
-	},
-	{
-	"id":"area17",
-	"name":"DCAE Design Studio",
-	"shape":"rect",
-	"coords":"43,284,163,296",
-	"a_href":"https://docs.onap.org/en/casablanca/submodules/sdc.git/docs/dcaedesigner.html",
-	"d_href":"https://docs.onap.org/en/casablanca/submodules/sdc.git/docs/dcaedesigner.html",
-	"target":"__blank",
-	"comp_detail" : {
-                "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
-                "img_uri_sz_w" : "2186", 
-                "img_uri_sz_h" : "1716", 
-                "api" : [
-				{
-				"id":"api19",
-				"name" : "Not Populated Yet",
-				"shape" : "",
-				"coords" : "",
-				"href" : "",
-				"target" : "__blank"
-				}
-			]
-                }
-	},
-	{
 	"id":"area18",
 	"name":"Multi-VIM",
 	"shape":"rect",
 	"coords":"328,269,425,337",
-	"a_href":"https://docs.onap.org/en/frankfurt/guides/onap-developer/developing/index.html#multivim-cloud",
+	"a_href":"https://docs.onap.org/projects/onap-multicloud-framework/en/latest/MultiCloud-Architecture.html",
 	"d_href":"process_multivim.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -510,8 +438,8 @@
 	"id":"area19",
 	"name":"Microservice Bus",
 	"shape":"rect",
-	"coords":"220,225,664,245",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/msb/apigateway.git/docs/index.html",
+	"coords":"240,240,445,255",
+	"a_href":"https://docs.onap.org/projects/onap-msb-apigateway/en/latest/index.html#master-index",
 	"d_href":"process_msb.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -531,11 +459,35 @@
                 }
 	},
 	{
+	"id":"area19-1",
+	"name":"DMaaP",
+	"shape":"rect",
+	"coords":"444,240,645,255",
+	"a_href":"https://docs.onap.org/projects/onap-dmaap-buscontroller/en/latest/index.html",
+	"d_href":"process_msb.php",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#dmaap-data-management-as-a-platform",
+                "img_uri_sz_w" : "2066", 
+                "img_uri_sz_h" : "1198", 
+                "api" : [
+				{
+				"id":"api21",
+				"name" : "MSBE-2 Service Request",
+				"shape" : "rect",
+				"coords" : "340,700,516,772",
+				"href" : "https://MSBE-2",
+				"target" : "__blank"
+				}
+			]
+                }
+	},
+	{
 	"id":"area20",
 	"name":"OOM",
 	"shape":"rect",
 	"coords":"576,120,697,150",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/oom.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-oom/en/latest/index.html#master-index",
 	"d_href":"process_oom.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -559,7 +511,7 @@
 	"name":"AAF",
 	"shape":"rect",
 	"coords":"732,239,860,252",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/aaf/authz.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-aaf-authz/en/latest/index.html#master-index",
 	"d_href":"process_aaf.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -583,7 +535,7 @@
 	"name":"OOF",
 	"shape":"rect",
 	"coords":"734,255,862,268",
-	"a_href":"https://docs.onap.org/en/frankfurt/guides/onap-developer/developing/index.html#optimization-framework",
+	"a_href":"https://docs.onap.org/projects/onap-optf-has/en/latest/index.html",
 	"d_href":"process_oof.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -656,7 +608,7 @@
 	"name":"MUSIC",
 	"shape":"rect",
 	"coords":"733,298,861,311",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/music.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-music/en/latest/index.html#master-index",
 	"d_href":"https://docs.onap.org/en/frankfurt/guides/onap-developer/developing/index.html#music",
 	"target":"__blank",
 	"comp_detail" : {
@@ -704,7 +656,7 @@
 	"name":"CLAMP",
 	"shape":"rect",
 	"coords":"215,194,330,227",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/clamp.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-clamp/en/latest/index.html#master-index",
 	"d_href":"process_clamp.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -752,7 +704,7 @@
 	"name":"Policy",
 	"shape":"rect",
 	"coords":"338,191,405,228",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/policy/parent.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-policy-parent/en/latest/index.html#master-index",
 	"d_href":"process_policy.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -808,7 +760,7 @@
 	"name":"Service Orchestrator",
 	"shape":"rect",
 	"coords":"409,192,511,228",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/so.git/docs/architecture/architecture.html",
+	"a_href":"https://docs.onap.org/projects/onap-so/en/latest/architecture/architecture.html",
 	"d_href":"process_so.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -832,7 +784,7 @@
 	"name":"AAI",
 	"shape":"rect",
 	"coords":"514,195,611,228",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/aai/aai-common.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-aai-aai-common/en/latest/platform/architecture.html",
 	"d_href":"process_aai.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -856,7 +808,7 @@
 	"name":"ESR",
 	"shape":"rect",
 	"coords":"623,194,701,226",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/aai/esr-server.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-aai-aai-common/en/latest/platform/architecture.html#esr",
 	"d_href":"process_esr.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -904,7 +856,7 @@
 	"name":"Portal",
 	"shape":"rect",
 	"coords":"192,165,239,180",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/portal.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-portal/en/latest/index.html#master-index",
 	"d_href":"process_portal.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -928,7 +880,7 @@
 	"name":"VID",
 	"shape":"rect",
 	"coords":"263,164,388,180",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/vid.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-vid/en/latest/index.html#master-index",
 	"d_href":"process_vid.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -952,7 +904,7 @@
 	"name":"UseCase UI",
 	"shape":"rect",
 	"coords":"405,162,481,180",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/usecase-ui.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-usecase-ui/en/latest/index.html#master-index",
 	"d_href":"process_usecaseui.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -976,7 +928,7 @@
 	"name":"ExtAPI",
 	"shape":"rect",
 	"coords":"495,162,571,180",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/externalapi/nbi.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-externalapi-nbi/en/latest/index.html#master-index",
 	"d_href":"process_extapi.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1048,7 +1000,7 @@
 	"name":"NBI",
 	"shape":"rect",
 	"coords":"383,94,424,113",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/externalapi/nbi.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-externalapi-nbi/en/latest/index.html#master-index",
 	"d_href":"process_extapi.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1072,7 +1024,7 @@
 	"name":"Modeling Utilities",
 	"shape":"rect",
 	"coords":"61,410,135,420",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/modeling/modelspec.git/docs/index.html",
+	"a_href":"https://wiki.onap.org/display/DW/Modeling+Project",
 	"d_href":"https://docs.onap.org/en/frankfurt/submodules/modeling/modelspec.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1096,8 +1048,8 @@
 	"name":"TOSCA Parser",
 	"shape":"rect",
 	"coords":"62,424,136,434",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/modeling/toscaparsers.git/docs/index.html",
-	"d_href":"https://docs.onap.org/en/frankfurt/submodules/modeling/toscaparsers.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-modeling-toscaparsers/en/latest/index.html",
+	"d_href":"https://docs.onap.org/projects/onap-modeling-toscaparsers/en/latest/index.html",
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
@@ -1120,8 +1072,8 @@
 	"name":"Design-Time",
 	"shape":"rect",
 	"coords":"66,115,165,154",
-	"a_href":"https://docs.onap.org/en/frankfurt/guides/onap-user/design/index.html",
-	"d_href":"https://docs.onap.org/en/frankfurt/guides/onap-user/design/index.html",
+	"a_href":"https://docs.onap.org/en/latest/guides/onap-user/design/index.html",
+	"d_href":"https://docs.onap.org/en/latest/guides/onap-user/design/index.html",
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
@@ -1144,8 +1096,8 @@
 	"name":"AID",
 	"shape":"rect",
 	"coords":"170,236,220,255",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/vnfrqts/requirements.git/docs/Chapter8/TOSCA-model.html#table-d2-tosca-csar-structure",
-	"d_href":"https://docs.onap.org/en/frankfurt/submodules/vnfrqts/requirements.git/docs/Chapter8/TOSCA-model.html#table-d2-tosca-csar-structure",
+	"a_href":"https://docs.onap.org/en/latest/submodules/vnfrqts/requirements.git/docs/Chapter8/TOSCA-model.html#table-d2-tosca-csar-structure",
+	"d_href":"https://docs.onap.org/en/latest/submodules/vnfrqts/requirements.git/docs/Chapter8/TOSCA-model.html#table-d2-tosca-csar-structure",
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
@@ -1168,8 +1120,8 @@
 	"name":"VVP",
 	"shape":"rect",
 	"coords":"95,166,129,181",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/vvp/documentation.git/docs/index.html",
-	"d_href":"https://docs.onap.org/en/frankfurt/submodules/vvp/documentation.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-vvp-documentation/en/latest/release-notes.html",
+	"d_href":"https://docs.onap.org/en/latest/submodules/vvp/documentation.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",
@@ -1192,8 +1144,8 @@
 	"name":"VNFSDK",
 	"shape":"rect",
 	"coords":"133,164,175,179",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/vnfsdk/model.git/docs/index.html",
-	"d_href":"https://docs.onap.org/en/frankfurt/submodules/vnfsdk/model.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-vnfsdk-model/en/latest/files/marketplace-overview.html?highlight=VNF-SDK",
+	
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/71830226/VNFSDK%20%20System%20Context%20View.png?version=1&modificationDate=1570537288000&api=v2",
@@ -1216,8 +1168,8 @@
 	"name":"CLI",
 	"shape":"rect",
 	"coords":"588,162,619,180",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/cli.git/docs/index.html",
-	"d_href":"https://docs.onap.org/en/frankfurt/submodules/cli.git/docs/index.html",
+	"a_href":"https://docs.onap.org/projects/onap-cli/en/latest/architecture.html",
+	"d_href":"https://docs.onap.org/en/latest/submodules/cli.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/81404450/vnfsdk_r5.png?api=v2",
@@ -1240,8 +1192,8 @@
 	"name":"CCSDK",
 	"shape":"rect",
 	"coords":"62,398,136,408",
-	"a_href":"https://docs.onap.org/en/frankfurt/submodules/ccsdk/apps.git/docs/index.html#",
-	"d_href":"https://docs.onap.org/en/frankfurt/submodules/ccsdk/apps.git/docs/index.html#",
+	"a_href":"https://docs.onap.org/en/latest/submodules/ccsdk/apps.git/docs/index.html#",
+	"d_href":"https://docs.onap.org/en/latest/submodules/ccsdk/apps.git/docs/index.html#",
 	"target":"__blank",
 	"comp_detail" : {
                 "img_uri" : "https://wiki.onap.org/download/attachments/71830090/DCAE%20System%20View.png?version=7",

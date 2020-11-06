@@ -1,0 +1,24 @@
+
+[
+        {
+        "option_name" : "arch-overview",
+        "option_value" : "Architecture Overview",
+	"display_default": "yes"
+	},
+	{
+        "option_name" :"dev-guide",
+        "option_value" : "Components Arch/APIs",
+	"display_default": "no"
+	},
+	{
+	"option_name" : "devops-guide",
+	"option_value" : "Dev Ops",
+	"display_default": "no"
+	},
+	{
+        "option_name" : "flows-guide" ,
+        "option_value" : "Flows",
+	"display_default": "no"
+        }
+]
+
