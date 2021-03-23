@@ -9,8 +9,11 @@
 require_once "onapdocs_functions.php";
 
 
-$onap_obj_file = $_SESSION["release"] . "/json/onapdocs_obj_file.json";
-//echo $onap_obj_file;
+$release_name = $SESSION["release"];
+$doc_type = $SESSION["doc_type"];
+$onap_obj_file = $release_name . $doc_type . "/json/onapdocs_obj_file.json";
+echo "<<<< DEBUG in main.php>>>>" .  $release_name  . "(" . $doc_type . ")" . PHP_EOL;;
+
 
 //if ($_GET) {
     //$component_name = $_GET['argument1'];
@@ -43,7 +46,7 @@ $css_tag_w_h = get_width_from_css ($css_tag);
 //echo "<<<< DEBUG in main.php >>>>  W: (" . $css_tag_w_h[0] .  ")" .PHP_EOL;
 //echo "<<<< DEBUG in main.php >>>>  H: (" . $css_tag_w_h[1] . ")" . PHP_EOL;
 
-$real_img_sz = format_img_tag ($onap_obj_file, $component_name, $css_tag);
+$real_img_sz = format_img_tag ($onap_obj_file, $release_name, $component_name, $css_tag);
 //echo "<<<< DEBUG real W: (" . $real_img_sz[0] .  ")" .PHP_EOL;
 //echo "<<<< DEBUG real H: (" . $real_img_sz[1] . ")" . PHP_EOL;
 

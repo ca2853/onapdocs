@@ -18,8 +18,10 @@ $release_name = $_SESSION['release'];
 $doc_type = $_SESSION['doc_type'];
 
 //echo "<<<< DEBUG - **in format_main_menu_tags >>>> looking for release: (" . $release_name . ")" . PHP_EOL;
+//echo "<<<< DEBUG - **in format_main_menu_tags >>>> looking for doc_type: (" . $doc_type . ")" . PHP_EOL;
 //$doc_type = "dev-guide";
-$onap_obj_file = $release_name . "/json/onapdocs_obj_file.json";
+$onap_obj_file = $release_name . "/" . $doc_type . "/onapdocs_obj_file.json";
+//echo "<<<< DEBUG in format_main_menu_tags.php>>>>" . "looking for: "  .  $onap_obj_file .  PHP_EOL;
 
 
 $real_image_sz = format_main_img_tag ($release_name, $doc_type);

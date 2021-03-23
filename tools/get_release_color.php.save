@@ -1,0 +1,29 @@
+<?php
+
+
+$rel_name = $_SESSION['release'];
+$doc_type = $_SESSION['doc_type'];
+
+//$rel_name = "honolulu";
+//$doc_type = "comp-review";
+
+$file_name = "json/onap_releases.json";
+
+$readjson = file_get_contents($file_name);
+
+
+//Decode JSON
+$data = json_decode($readjson, true);
+
+foreach ($data as $rel) {
+
+        $options_count = sizeof ($rel["options"]);
+
+        if (strcmp ($rel['release_value'], $rel_name ) == 0)
+        {
+		echo $rel["release_color"];
+		break;
+	}
+}
+?>
+

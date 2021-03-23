@@ -15,6 +15,6 @@ $readjson = file_get_contents($file_name);
 $data = json_decode($readjson, true);
 
 foreach ($data as $rec) {
-		echo  $rec['onapdocs_release_color'];
+		echo  $rec['main_page_prompt'];
 }
 ?> 

@@ -12,7 +12,7 @@ foreach ($data as $rec) {
 	if ($rec['comp_name'] == $c_name) 
 	{
 	 */
-		echo  $rec['main_title'] ;
+		echo  $rec['submit_tag'] ;
 	/*
 		break;
 	}

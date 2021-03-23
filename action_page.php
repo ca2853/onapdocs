@@ -8,20 +8,23 @@
 	session_start();
 ?>
 
-<?php if ($_SERVER['REQUEST_METHOD'] == 'POST')
+<?php 
+	if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	{
 		$_SESSION['release'] = $_POST['release'];
 		$_SESSION['doc_type'] = $_POST['doc_type'];
 	}
+//echo "<<<< DEBUG - in action_page.php >>>> looking for release: (" . $_POST['release'] . ")" . PHP_EOL;
+//echo "<<<< DEBUG - in action_page.php >>>> looking for doc_type: (" . $_POST['doc_type'] . ")" . PHP_EOL;
 ?>
 
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>ONAPDOCS Landing Page</title>
+<TITLE><?php include 'php/get_main_title.php' ?></TITLE>
 <meta name="description" content="">
 
-<link rel="stylesheet" href=<?php echo $_SESSION['release'] . "/css/menu_style.css"?> 
+<link rel="stylesheet" href=<?php echo $_SESSION['release'] . "/css/menu_style.css"?>> 
 
 <!-- IE6-8 support of HTML5 elements --> <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -50,6 +53,15 @@
 	<ul id="navigation">
 		<li><a href="#">ONAP Subcommittees &raquo;</a>
 			<ul>
+				<li><a href="#">ONAP TCS  &raquo;</a>
+					<ul>
+                                                <li><a href="
+
+https://wiki.onap.org/pages/viewpage.action?pageId=3245207
+">ONAP TSC Weekly Meeting</a>
+                                                <li><a href="https://wiki.onap.org/display/Meetings/2021+TSC+MEETING+MINUTES">2021 ONAP TSC Meeting Minutes </a>
+                                        </ul>
+				</li>
 				<li><a target="" href="#">Architecture &raquo</a>
 					<ul>
 						
@@ -59,10 +71,7 @@
 						<li><a href="#">ArchCom Weekly Meetings &raquo</a>
 							<ul>
 								<li><a href="https://wiki.onap.org/display/DW/Architecture+Subcommittee+Meeting">Weekly Meeting Logistics</a></li>
-								<li><a href="https://wiki.onap.org/display/DW/ONAPARC+2017+Meetings">ONAPARC 2017</a></li>
-								<li><a href="https://wiki.onap.org/display/DW/ONAPARC+2018+Meetings">ONAPARC 2018</a></li>
-								<li><a href="https://wiki.onap.org/display/DW/ONAPARC+2019+Meetings">ONAPARC 2019</a></li>
-								<li><a href="https://wiki.onap.org/display/DW/ONAPARC+2020+Meetings">ONAPARC 2020</a></li>
+								<li><a href="https://wiki.onap.org/display/DW/ONAPARC+2021+Meetings">ONAPARC 2021</a></li>
 							</ul>					
 						</li>					
 						<li><a href="#">Comopnent Diagrams </a>
@@ -84,7 +93,7 @@
                                         </ul>
 				</li>
 
-				<li><a href="#">Requirments &raquo;</a>
+				<li><a href="#">Requirements &raquo;</a>
 					<ul>
 						<li><a href="https://wiki.onap.org/display/DW/Requirements+subcommittee">Weeky Meeting Logistics</a></li>
 						<li><a href="https://wiki.onap.org/display/DW/Requirements+subcommittee+meeting+minutes">Meeting Minutes</a></li>
@@ -96,14 +105,19 @@
 					<ul>
 						<li><a href=" https://wiki.onap.org/display/DW/ONAP+Security+coordination">About SECCOM</a></li>
 						<li><a href="https://wiki.onap.org/display/DW/Onap+security+subcommittee+meeting+notes">Weeky Meetings</a></li>
-						<li><a href="https://wiki.onap.org/pages/viewpage.action?pageId=15995347">Best Pactices</a></li>
+						<li><a href="#">Best Practices &raquo;</a>
+							<ul>
+								<li><a href="https://wiki.onap.org/pages/viewpage.action?pageId=15995347">Security Best Practices</a></li>
+								<li><a href="https://wiki.onap.org/display/DW/Secure+Programming+Practices">Secure Prog Practices</a></li>
+							</ul>						
+						</li>
 					</ul>
 				</li>
 			</ul>
 		</li>
 		<li><a href="#">LF Networking &raquo;</a>
 			<ul>
-				<li><a href="#">LFN-TAC Meeting Minutes &raquo</a>
+				<li><a href="#">LFN-TAC MoM &raquo</a>
 			
 					<ul>
 						<li><a href="https://wiki.lfnetworking.org/display/LN/LFN-TAC+Minutes+2018">LFN-TAC Minutes 2018</a></li>
@@ -112,7 +126,7 @@
 					</ul>
 				</li>
 				<li><a href="https://wiki.lfnetworking.org/pages/viewpage.action?pageId=327912">Marketing Advisory Concil (MAC)</a></li>
-				<li><a href="https://wiki.lfnetworking.org/display/LN/2020+April+Virtual+Technical+Event">2020 April Technical Event
+				<li><a href="https://wiki.lfedge.org/">LF EDGE</a></li>
 				<li><a href="#">Place Holder</a></li>
 				<li><a href="#">Next Level &raquo;</a>
 					<ul>
@@ -126,25 +140,23 @@
 		</li>
 		<li><a href="#">ONAP Use Cases</a>
 				<ul>
-					<li><a href="https://wiki.onap.org/display/DW/Release+6+%28Frankfurt%29+proposed+use+cases+and+functional+requirements">R6 UseCases</a></li>
-					<li><a href="https://wiki.onap.org/display/DW/5G+Use+Cases+in+R6+Frankfurt">5G</a></li>
-					<li><a href="https://jira.onap.org/secure/attachment/15254/15254_ONAP_E2E_Network_Slicing_Arch_Com_200225-V0.3.pptx">5G Slicing</a></li>
+					<li><a href="https://wiki.onap.org/display/DW/Honolulu-R8+Use+Case+Requirements+Architecture+Reviews">Honolulu-R8 Use Cases</a></li>
 					<li><a href="#">Place Holder</a></li>
-					<li><a href="#">Place Holdern</a></li>
 				</ul>						
 		</li>
 		<li><a href="#">Release Planning</a>
 				<ul>
-					<li><a href="https://wiki.onap.org/pages/viewpage.action?pageId=3246393">Legacy</a></li>
-					<li><a href="https://wiki.onap.org/display/DW/Release+Planning%3A++Frankfurt">Frankfurt-R6</a></li>
+					<li><a href="https://wiki.onap.org/display/DW/Release+Planning%3A+Honolulu">Honolulu-R8</a></li>
 					<li><a href="https://wiki.onap.org/display/DW/Release+Planning%3A++Guilin">Guilin-R7</a></li>
+					<li><a href="https://wiki.onap.org/display/DW/Release+Planning%3A++Frankfurt">Frankfurt-R6</a></li>
 				</ul>						
 		</li>
 		<li><a href="#" class="last">Task Forces &raquo;</a>
 				<ul>
-					<li><a href="https://wiki.onap.org/display/DW/ONAP+Project+and+Component+Lifecycle">ONAP Project and Component Lifecycle</a></li>
+					<li><a href="https://wiki.onap.org/display/DW/ONAP+Project+and+Component+Lifecycle">Project and Component Lifecycle</a></li>
 					<li><a href="https://wiki.onap.org/pages/viewpage.action?pageId=79203136">CNF Taskforce</a></li>
 					<li><a href="https://wiki.onap.org/display/DW/Release+Cadence+Proposal">Release Cadence</a></li>
+					<li><a href="https://wiki.onap.org/display/DW/TSC+Task+Force%3A+ONAP+for+Enterprise+Business">ONAP for Enterprise Business</a></li>
 				</ul>						
 		</li>
 	</ul>

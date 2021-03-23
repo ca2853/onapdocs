@@ -1,0 +1,452 @@
+[
+	{
+	"id":"area1",
+	"name":"SON",
+	"shape":"rect",
+	"coords":"48,164,280,195",
+	"a_href":"https://wiki.onap.org/display/DW/R7+OOF+SON+Use+Case",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area2",
+	"name":"O-RAN",
+	"shape":"rect",
+	"coords":"48,202,279,237",
+	"a_href":"https://wiki.onap.org/display/DW/MOBILITY+STANDARDS+HARMONIZATION+WITH+ONAP",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area3",
+	"name":"O-RAN",
+	"shape":"rect",
+	"coords":"48,202,279,279",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=84644984",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area4",
+	"name":"5G-Slicing",
+	"shape":"rect",
+	"coords":"48,291,279,322",
+	"a_href":"https://wiki.onap.org/display/DW/R8+E2E+Network+Slicing+use+case",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area5",
+	"name":"5G-Service-Modeling",
+	"shape":"rect",
+	"coords":"48,335,279,364",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=60888132",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area6",
+	"name":"CCVPN-Transport-Slicing-RAN",
+	"shape":"rect",
+	"coords":"48,378,279,407",
+	"a_href":" https://wiki.onap.org/pages/viewpage.action?pageId=45296665",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area7",
+	"name":"PNF Onboarding",
+	"shape":"rect",
+	"coords":"333, 164,558,193",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=45303641",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area8",
+	"name":"PNF Software Upgrade",
+	"shape":"rect",
+	"coords":"335,205,563,239",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=40206496",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area9",
+	"name":"PNF Plug and Play",
+	"shape":"rect",
+	"coords":"333,251,561,285",
+	"a_href":"https://wiki.onap.org/display/DW/5G+-+PNF+Plug+and+Play",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area10",
+	"name":"PNF Bulk PM",
+	"shape":"rect",
+	"coords":"335,294,563,328",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=40206494",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area11",
+	"name":"PNF RT PM",
+	"shape":"rect",
+	"coords":"335,336,563,370",
+	"a_href":"https://wiki.onap.org/display/DW/PERFORMANCE+MEASUREMENTS+USE+CASES%3A+Bulk%2C+RT%2C+Dictionary",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area11-1",
+	"name":"ETSI Alignment",
+	"shape":"rect",
+	"coords":"613,162,841,196",
+	"a_href":"https://wiki.onap.org/display/DW/R8+ETSI+Alignment",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area12",
+	"name":" CMP v2 X 509",
+	"shape":"rect",
+	"coords":"613,203,841,237",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=84640858",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area13",
+	"name":"MDONS",
+	"shape":"rect",
+	"coords":"613,245,841,280",
+	"a_href":"https://wiki.onap.org/display/DW/Multi-domain+Optical+Network+Services",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area14",
+	"name":"Intent Based Networking",
+	"shape":"rect",
+	"coords":"613,290,841,324",
+	"a_href":"https://wiki.onap.org/display/DW/Support+for+Intent+Framework+and+Intent+Modeling",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area15",
+	"name":"Vertical Industry Mgmt",
+	"shape":"rect",
+	"coords":"613,334,841,368",
+	"a_href":"https://wiki.onap.org/display/DW/Support+for+Vertical+Industry",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area16",
+	"name":"Licensing Mgmt",
+	"shape":"rect",
+	"coords":"613,375,841,409",
+	"a_href":"https://wiki.onap.org/display/DW/LICENSING+MANAGEMENT",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area17",
+	"name":"Broadban Services",
+	"shape":"rect",
+	"coords":"613,418,841,452",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=45297636",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	}
+]

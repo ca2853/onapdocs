@@ -12,7 +12,7 @@ foreach ($data as $rec) {
 	if ($rec['comp_name'] == $c_name) 
 	{
 	 */
-		echo  $rec['main_title'] ;
+		printf ("%s", $rec['release_prop_msg']) ;
 	/*
 		break;
 	}

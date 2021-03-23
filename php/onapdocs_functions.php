@@ -21,21 +21,29 @@ $data = json_decode($readjson, true);
 
 foreach ($data as $rec) {
 //echo "\"" . $rec['name']. PHP_EOL;
-		if ($rec['name'] == $c_name) {
+	//
+	// If image_uri at the documet level (doc_type) is set use it; otherwise default yp the
+	// release level image_uri
+	//
+	$image_uri = $rec['image_uri'];
 
-			echo "<img  id = "."\"".$css_tag."\""."\n";
-			echo "\tsrc = ";
-			echo "\"" . $rec['comp_detail']['img_uri'] . "\"\n";
-			//echo "\talt = \"Image file: " .   $rec['comp_detail']['img_uri']  . " not found\"\n";
-			echo "\talt = \"$c_name\"\n";
-			echo "\tusemap = "."\""."#".$usemap."\""."\n";
-			echo "\n>\n";
-			echo "\t<map name = "."\"".$usemap."\"".">\n";
-			$real_img_sz[0] =  $rec['comp_detail']['img_uri_sz_w']; 
-			$real_img_sz[1] =  $rec['comp_detail']['img_uri_sz_h']; 
-			break;
-		}
+	$options_count = sizeof ($rec["options"]);
+
+	if ($rec['name'] == $c_name) {
+
+		echo "<img  id = "."\"".$css_tag."\""."\n";
+		echo "\tsrc = ";
+		echo "\"" . $rec['comp_detail']['img_uri'] . "\"\n";
+		//echo "\talt = \"Image file: " .   $rec['comp_detail']['img_uri']  . " not found\"\n";
+		echo "\talt = \"$c_name\"\n";
+		echo "\tusemap = "."\""."#".$usemap."\""."\n";
+		echo "\n>\n";
+		echo "\t<map name = "."\"".$usemap."\"".">\n";
+		$real_img_sz[0] =  $rec['comp_detail']['img_uri_sz_w']; 
+		$real_img_sz[1] =  $rec['comp_detail']['img_uri_sz_h']; 
+		break;
 	}
+}
 
 //print_r ($real_img_sz);
 	return ($real_img_sz);
@@ -245,30 +253,50 @@ $css_tag = "position-main";
 //Decode JSON
 $data = json_decode($readjson, true);
 //echo "<<<< DEBUG in format_main_img_tag>>>> looking for release: (" . $release_name . ")" . PHP_EOL;
-foreach ($data as $loc) {
+foreach ($data as $rel) {
 
-//echo "<<<< DEBUG in format_main_img_tag >>>> Release value: (" . $loc['release_value'] . ")" . PHP_EOL;
-        if ($loc['release_value'] == $release_name)
+//echo "<<<< DEBUG in format_main_img_tag >>>> Release value: (" . $rel['release_value'] . ")" . PHP_EOL;
+        if ($rel['release_value'] == $release_name)
         {
+		//
+                // If image_uri at the documet level (doc_type) is set use it; otherwise default yp the
+                // release level image_uri
+                //
+                $image_uri = $rel['image_uri'];
+//echo "<<<< DEBUG in format_main_img_tag >>>> Image URI: (" . $image_uri . ")" . PHP_EOL;
+//echo "<<<< DEBUG in format_main_img_tag >>>> doc_type: (" . $doc_type . ")" . PHP_EOL;
+
+                $options_count = sizeof ($rel["options"]);
+
+                for ( $i = 0; $i < $options_count; $i++)
+                {
+                        if (strcmp($rel["options"][$i]["value"], $doc_type ) == 0) {
+
+                                if ( !empty($rel["options"][$i]["image_uri"]) ) {
+                                        //
+                                        //image_uri at the doc_type level is set; use it
+                                        //
+                                        $image_uri = $rel["options"][$i]['image_uri'];
+                                }
+                        }
+                }
                 echo "<img  id = " . "\"". $css_tag ."\"\n";
                 echo "\tsrc = ";
-                echo "\"" . $loc['image_uri'] . "\"\n";
-                //echo "\talt = \"Image file" .$loc['image_uri'] . " not found\"\n";
+                echo "\"" . $image_uri . "\"\n";
+//echo "\talt = \"Image file" .$rel['image_uri'] . " not found\"\n";
                 echo "\talt = \"$release_name/$doc_type\"\n";
                 echo "\tusemap = "."\""."#".$doc_type."\""."\n";
                 echo "\n>\n";
                 echo "\t<map name = "."\"".$doc_type."\"".">\n";
 		break;
         }
-	else {
 
-//echo "<<<< DEBUG in format_main_img_tag >>>> Release value: (" . $loc['release_value'] . ")" . PHP_EOL;
-	}
+//echo "<<<< DEBUG in format_main_img_tag >>>> Release value: (" . $rel['release_value'] . ")" . PHP_EOL;
 
 
 }
-//echo "<<<< DEBUG in format_main_img_tag>>>> returning: (" . $loc['image_sz'] . ")" . PHP_EOL;
-return ((int)$loc['image_sz']);
+//echo "<<<< DEBUG in format_main_img_tag>>>> returning: (" . $rel['image_sz'] . ")" . PHP_EOL;
+return ((int)$rel['image_sz']);
 }
 
 ?> 

@@ -1,44 +1,39 @@
 <?php
-# For local testing uncomment the lines below
-# 
-#$_POST = array(
-#	'release'=>'amsterdam',
-#	'doc_type'=>'arch-overview',
-#);
 
 
-#$page_header = array(
-#	'arch-overview'=>'Architecture Overview',
-#	'dev-guide'=>'Components Architecture and API Specs',
-#	'devops-guide'=>'Dev Ops',
-#	'user-guide'=>'User Guide',
-#);
 
-$file_name = "json/main_menu_options.json";
-$menu_options = file_get_contents($file_name);
+$rel_name = $_SESSION['release'];
+$doc_type = $_SESSION['doc_type'];
 
-#$data = json_decode($readjson, true);
-$data = json_decode($menu_options, true);
+//$rel_name = "honolulu";
+//$doc_type = "comp-review";
 
-$doc_type = $_POST["doc_type"];
+$file_name = "json/onap_releases.json";
 
-foreach ($data as $page_header) {
+$readjson = file_get_contents($file_name);
 
-#<<<< echo "***". "(".$doc_type . ")"."*****\n";
 
-	if ($page_header["option_name"] == $doc_type) {
-		#echo "***". "(".$page_header[$doc_type] . ")"."*****\n";
-		#var_dump($page_header);
+//Decode JSON
+$data = json_decode($readjson, true);
 
-		#echo "<<<< ".$doc_type_name." >>>>"."\n";
-		echo "<H3 id=\"main_menu_title_medium\">";
-		echo "<center>".$page_header["option_value"]."</center></H3>" . PHP_EOL;
-		echo "<H2 id=\"main_menu_title_small\">";
-		echo "<center>".$_POST["release"] ."</center></H2>";
-		#$doc_type_title = $page_header[$doc_type_name];
-		#echo "<<<< ".$doc_type_title." >>>>"."\n";
-		break;
-	}
+foreach ($data as $rel) {
+
+        $options_count = sizeof ($rel["options"]);
+
+        if (strcmp ($rel['release_value'], $rel_name ) == 0)
+        {
+                for ( $i = 0; $i < $options_count; $i++)
+                {
+                        if (strcmp($rel["options"][$i]["value"], $doc_type) == 0)
+                        {
+                                echo "<H3 id=\"main_menu_title_medium\">";
+                                echo "<center>".$rel["options"][$i]["display_str"]."</center></H3>" . PHP_EOL;
+                                echo "<H2 id=\"main_menu_title_small\">";
+                                echo "<center>".$rel["release_name"] ."</center></H2>";
+                                break;
+                        }
+                }
+        }
 }
-?> 
+?>
 
