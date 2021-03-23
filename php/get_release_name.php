@@ -1,6 +1,9 @@
-<?php
+<?php session_start();
 
-$file_name = "json/titles.json";
+
+
+$file_name = "json//titles.json";
+
 
 $readjson = file_get_contents($file_name);
 
@@ -12,7 +15,7 @@ foreach ($data as $rec) {
 	if ($rec['comp_name'] == $c_name) 
 	{
 	 */
-		printf ("%s", $rec['release_name']) ;
+		printf ("%s", $rec['onapdocs_release_name']) ;
 	/*
 		break;
 	}
