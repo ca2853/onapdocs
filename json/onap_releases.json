@@ -96,7 +96,7 @@
 		]
 	},
 	{
-	"release_name":"Honolulu-R8 - (In Dev)",
+	"release_name":"Honolulu-R8 - (In RC0/RC1)",
         "release_value" : "honolulu",
 	"image_uri" : "https://wiki.onap.org/download/attachments/84666957/master-onap-diagram-honolulu-r8-official.png?api=v2",
 	"image_sz" : "Not set yet",
@@ -144,7 +144,7 @@
 		]
 	},
 	{
-	"release_name":"Istanbul-R9 - (Future)",
+	"release_name":"Istanbul-R9 - (In planning - M0: Apr 1, 2021)",
         "release_value" : "istanbul",
 	"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-draft.png?api=v2",
 	"image_sz" : "Not set yet",
