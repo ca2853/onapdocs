@@ -133,7 +133,7 @@ function choose(opt) {
 		*  will change the contents of this array and therefore the pulldown
 		*  menus
 	*/
-	<?php include 'get_js_rel_array.php';?>
+	<?php include 'php/get_js_rel_array.php';?>
         
 	selected_relDoc = selected_relName + "-doc-type";
 
