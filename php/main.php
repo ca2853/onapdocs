@@ -11,7 +11,10 @@ require_once "onapdocs_functions.php";
 
 $release_name = $SESSION["release"];
 $doc_type = $SESSION["doc_type"];
-$onap_obj_file = $release_name . $doc_type . "/json/onapdocs_obj_file.json";
+
+$json_db="json_db";
+$onap_obj_file = $json_db . "/" . $release_name . "/" . $doc_type . "/onapdocs_obj_file.json";
+
 echo "<<<< DEBUG in main.php>>>>" .  $release_name  . "(" . $doc_type . ")" . PHP_EOL;;
 
 

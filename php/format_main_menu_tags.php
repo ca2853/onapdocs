@@ -6,6 +6,7 @@ header("Expires: Sat, 01 Jan 2000 00:00:00 GMT");
 
 
 require_once "onapdocs_functions.php";
+
 #$_POST = array(
        #'release'=>'elalto',
        #'doc_type'=>'dev-guide',
@@ -20,7 +21,10 @@ $doc_type = $_SESSION['doc_type'];
 //echo "<<<< DEBUG - **in format_main_menu_tags >>>> looking for release: (" . $release_name . ")" . PHP_EOL;
 //echo "<<<< DEBUG - **in format_main_menu_tags >>>> looking for doc_type: (" . $doc_type . ")" . PHP_EOL;
 //$doc_type = "dev-guide";
-$onap_obj_file = $release_name . "/" . $doc_type . "/onapdocs_obj_file.json";
+//
+$json_db="json_db";
+$onap_obj_file = $json_db . "/" . $release_name . "/" . $doc_type . "/onapdocs_obj_file.json";
+
 //echo "<<<< DEBUG in format_main_menu_tags.php>>>>" . "looking for: "  .  $onap_obj_file .  PHP_EOL;
 
 

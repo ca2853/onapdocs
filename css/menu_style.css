@@ -93,11 +93,14 @@ ol, ul {
 	color: #047774; 
 	font-size: 30px;
 	font-style: normal;
+	/*
 	font-weight:bold;
+	*/
 	border:  0px solid #047774;
 	width: 450px;
 	margin-left: auto;
 	margin-right: auto;
+	line-height: 1.25em;
 }
 
 #main_menu_title_medium{
@@ -107,6 +110,7 @@ ol, ul {
 	border: 0px solid blue;
 	margin-left: auto;
 	margin-right: auto;
+	line-height: 1.25em;
 }
 
 #main_menu_title_small{

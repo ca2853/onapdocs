@@ -157,7 +157,7 @@
 			"image_uri" : "",
 			"image_sz" : "Not set yet",
 			"name" : "Architecture Overview",
-			"display_str" : "Architecture Overview - DRAFT",
+			"display_str" : "Architecture Overview",
 			"display_default": "no",
 			"status": ""
 			},
@@ -166,7 +166,7 @@
 			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-comp%20reviews.png?api=v2",
 			"image_sz" : "Not set yet",
 			"name" : "Components Architecture Reviews",
-			"display_str" : "Components Architecture Review Dashboard - DRAFT",
+			"display_str" : "Components Architecture Reviews Dashboard",
 			"display_default": "yes",
 			"status": "enabled"
 			},
