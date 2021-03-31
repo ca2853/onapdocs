@@ -1,0 +1,6 @@
+	-
+	- gits
+	- git add -m or git add -A 
+	- git commit -m" msg "
+	- git push origin dev (push branch to origin on github)
+	- git pull (synchronizes with latest copy from origin/master)

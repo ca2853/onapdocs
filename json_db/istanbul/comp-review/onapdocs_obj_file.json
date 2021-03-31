@@ -125,7 +125,7 @@
 	"name":"Controller Design Studio",
 	"shape":"rect",
 	"coords":"407, 271, 475, 340",
-	"a_href":"https://docs.onap.org/projects/onap-ccsdk-cds/en/guilin/index.html",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/frankfurt/submodules/ccsdk/cds.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -197,7 +197,7 @@
 	"name":"SDN Controller",
 	"shape":"rect",
 	"coords":"483,270,551,339",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-669",
+	"a_href":"#",
 	"d_href":"process_sdnc.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -277,7 +277,7 @@
 	"name":"VFC",
 	"shape":"rect",
 	"coords":"634,270,712,339",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-690",
+	"a_href":"#",
 	"d_href":"process_vfc.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -302,7 +302,7 @@
 	"name":"DCAE",
 	"shape":"rect",
 	"coords":"218,266,310,286",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-675",
+	"a_href":"#",
 	"d_href":"process_dcae.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -366,7 +366,7 @@
 	"name":"VES",
 	"shape":"rect",
 	"coords":"219,316,306,338",
-	"a_href":"https://docs.onap.org/projects/onap-dcaegen2/en/guilin/sections/services/ves-http/index.html",
+	"a_href":"#",
 	"d_href":"process_dcae.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -390,7 +390,7 @@
 	"name":"Holmes",
 	"shape":"rect",
 	"coords":"220,286,309,314",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-679",
+	"a_href":"#",
 	"aa_href":"holmes_deprecated.php",
 	"d_href":"process_holmes.php",
 	"target":"__blank",
@@ -415,7 +415,7 @@
 	"name":"Multi-VIM",
 	"shape":"rect",
 	"coords":"322,269,401,338",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-683",
+	"a_href":"#",
 	"d_href":"process_multivim.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -439,7 +439,7 @@
 	"name":"Microservice Bus",
 	"shape":"rect",
 	"coords":"240,240,445,255",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-682",
+	"a_href":"#",
 	"d_href":"process_msb.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -463,7 +463,7 @@
 	"name":"DMaaP",
 	"shape":"rect",
 	"coords":"444,240,645,255",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-676",
+	"a_href":"#",
 	"d_href":"process_msb.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -511,7 +511,7 @@
 	"name":"AAF",
 	"shape":"rect",
 	"coords":"732,239,860,252",
-	"a_href":"https://docs.onap.org/projects/onap-aaf-authz/en/frankfurt/index.html#master-index",
+	"a_href":"https://docs.onap.org/projects/onap-aaf-authz/en/latest/index.html#master-index",
 	"d_href":"process_aaf.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -535,7 +535,7 @@
 	"name":"OOF",
 	"shape":"rect",
 	"coords":"734,255,862,268",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-684",
+	"a_href":"#",
 	"d_href":"process_oof.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -559,7 +559,7 @@
 	"name":"Logging",
 	"shape":"rect",
 	"coords":"734,271,862,284",
-	"aa_href":"https://docs.onap.org/en/frankfurt/submodules/logging-analytics.git/docs/index.html",
+	"aa_href":"#",
 	"a_href":"logging_deprecated.php",
 	"d_href":"https://docs.onap.org/en/frankfurt/submodules/logging-analytics.git/docs/index.html",
 	"target":"__blank",
@@ -608,7 +608,7 @@
 	"name":"MUSIC",
 	"shape":"rect",
 	"coords":"733,298,861,311",
-	"a_href":"https://docs.onap.org/projects/onap-music/en/frankfurt/",
+	"a_href":"https://docs.onap.org/projects/onap-music/en/latest/index.html#master-index",
 	"d_href":"https://docs.onap.org/en/frankfurt/guides/onap-developer/developing/index.html#music",
 	"target":"__blank",
 	"comp_detail" : {
@@ -632,7 +632,7 @@
 	"name":"CPS",
 	"shape":"rect",
 	"coords":"737,312,862,325",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-674",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/frankfurt/guides/onap-developer/developing/index.html#application-authorization-framework",
 	"target":"__blank",
 	"comp_detail" : {
@@ -760,7 +760,7 @@
 	"name":"Service Orchestrator",
 	"shape":"rect",
 	"coords":"409,192,511,228",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-688",
+	"a_href":"#",
 	"d_href":"process_so.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -784,7 +784,7 @@
 	"name":"AAI",
 	"shape":"rect",
 	"coords":"514,195,611,228",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-671",
+	"a_href":"#",
 	"d_href":"process_aai.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -808,7 +808,7 @@
 	"name":"ESR",
 	"shape":"rect",
 	"coords":"623,194,701,226",
-	"a_href":"https://docs.onap.org/projects/onap-aai-esr-gui/en/latest/",
+	"a_href":"#",
 	"d_href":"process_esr.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -856,7 +856,7 @@
 	"name":"Portal",
 	"shape":"rect",
 	"coords":"192,165,239,180",
-	"a_href":"https://docs.onap.org/projects/onap-portal/en/guilin/index.html#master-index",
+	"a_href":"https://docs.onap.org/projects/onap-portal/en/latest/index.html#master-index",
 	"d_href":"process_portal.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -864,14 +864,6 @@
                 "img_uri_sz_w" : "1698", 
                 "img_uri_sz_h" : "1084", 
                 "api" : [
-				{
-				"id":"api34",
-				"name" : "Not Populated Yet",
-				"shape" : "rect",
-				"coords" : "547,412,1539,896",
-				"href" : "coming_soon.php",
-				"target" : "__blank"
-				}
 			]
                 }
 	},
@@ -880,7 +872,7 @@
 	"name":"VID",
 	"shape":"rect",
 	"coords":"263,164,388,180",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-691",
+	"a_href":"#",
 	"d_href":"process_vid.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -904,7 +896,7 @@
 	"name":"UseCase UI",
 	"shape":"rect",
 	"coords":"405,162,481,180",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-689",
+	"a_href":"#",
 	"d_href":"process_usecaseui.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -928,7 +920,7 @@
 	"name":"ExtAPI",
 	"shape":"rect",
 	"coords":"495,162,571,180",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-678",
+	"a_href":"#",
 	"d_href":"process_extapi.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1000,7 +992,7 @@
 	"name":"NBI",
 	"shape":"rect",
 	"coords":"383,94,424,113",
-	"a_href":"https://docs.onap.org/projects/onap-externalapi-nbi/en/guilin/",
+	"a_href":"#",
 	"d_href":"process_extapi.php",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1024,7 +1016,7 @@
 	"name":"Modeling Utilities",
 	"shape":"rect",
 	"coords":"61,410,135,420",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-689",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/frankfurt/submodules/modeling/modelspec.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1048,7 +1040,7 @@
 	"name":"TOSCA Parser",
 	"shape":"rect",
 	"coords":"62,424,136,434",
-	"a_href":"coming_soon.php",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/projects/onap-modeling-toscaparsers/en/guilin/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1096,7 +1088,7 @@
 	"name":"AID",
 	"shape":"rect",
 	"coords":"170,236,220,255",
-	"a_href":"",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/guilin/submodules/vnfrqts/requirements.git/docs/Chapter8/TOSCA-model.html#table-d2-tosca-csar-structure",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1120,7 +1112,7 @@
 	"name":"VVP",
 	"shape":"rect",
 	"coords":"95,166,129,181",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-693",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/guilin/submodules/vvp/documentation.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1144,7 +1136,7 @@
 	"name":"VNFSDK",
 	"shape":"rect",
 	"coords":"133,164,175,179",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-692",
+	"a_href":"#",
 	
 	"target":"__blank",
 	"comp_detail" : {
@@ -1168,7 +1160,7 @@
 	"name":"CLI",
 	"shape":"rect",
 	"coords":"588,162,619,180",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-673",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/guilin/submodules/cli.git/docs/index.html",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1192,7 +1184,7 @@
 	"name":"CCSDK",
 	"shape":"rect",
 	"coords":"62,398,136,408",
-	"a_href":"https://docs.onap.org/projects/onap-ccsdk-distribution/en/guilin/index.html#master-index",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/guilin/submodules/ccsdk/apps.git/docs/index.html#",
 	"target":"__blank",
 	"comp_detail" : {
@@ -1216,7 +1208,7 @@
 	"name":"SDC",
 	"shape":"rect",
 	"coords":"47,198,173,232",
-	"a_href":"https://jira.onap.org/browse/ONAPARC-687",
+	"a_href":"#",
 	"d_href":"https://docs.onap.org/en/guilin/submodules/ccsdk/apps.git/docs/index.html#",
 	"target":"__blank",
 	"comp_detail" : {
