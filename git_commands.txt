@@ -4,3 +4,6 @@
 	- git commit -m" msg "
 	- git push origin dev (push branch to origin on github)
 	- git pull (synchronizes with latest copy from origin/master)
+
+	- sudo git clone  -b dev https://github.com/ca2853/onapdocs   onapdocs-dev(target dir)
+
