@@ -27,12 +27,21 @@ created menus.html and copied all the menus html tags that were embedded in acti
 ?>
 ----
 
+Mar 10, 2021
+	addeded the index.php in the webserver root dir to rediredt to onapdocs in the case a user tries
+	to access the root dir directly
+<?php
+header("Location: https://safratech.net/onapdocs"); 
+exit; 
+?>
+----
+
 Mar 23, 2021
-Added the support for REQUEST_METHOD == _GET in addition to POST
+	Added the support for REQUEST_METHOD == _GET in addition to POST
 	this will provide the ability to pass the 'release' and 'doc_type' variables as part of thr URL
 
 Mar 25, 2021
-Added a feature to control the appearance of the global menus.
+	Added a feature to control the appearance of the global menus.
 	- Added the supress_menus attribute to json/titlrs.json
 		if it ss set to yes then the global menus are not displayed
 	- Global menus are not displayed if the REQUEST_METHOD is set to 'GET'
