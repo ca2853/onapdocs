@@ -299,18 +299,21 @@ foreach ($data as $rel) {
 return ((int)$rel['image_sz']);
 }
 
-function get_supress_menus_option ()
+function get_supress_menus_option ($file_name)
 {
 
-$file_name = "json/titles.json";
+//echo "in get_supress_menus_option () " . "file_name: " .  $file_name . PHP_EOL;
+	/*
+	$file_name = "json/titles.json";
+	 */
 
-$readjson = file_get_contents($file_name);
+	$readjson = file_get_contents($file_name);
 
-//Decode JSON
-$data = json_decode($readjson, true);
+	//Decode JSON
+	$data = json_decode($readjson, true);
 
-foreach ($data as $rec) {
-		return  $rec['supress_menus'];
-}
+	foreach ($data as $rec) {
+			return  $rec['supress_menus'];
+	}
 }
 ?> 

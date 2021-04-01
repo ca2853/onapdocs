@@ -39,3 +39,7 @@ Added a feature to control the appearance of the global menus.
 
 Mar 26, 2021
 	dded a new feature to move all the json files at the topic leve to root/json_db
+
+Apr 1, 2021
+	Added logic to use local json dir at the doc_type level (titles.json) once the selection from 
+	the first screen has been made

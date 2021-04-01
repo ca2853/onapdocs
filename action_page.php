@@ -48,16 +48,22 @@
 ?>
 
 <!--
-<H3 id="main_menu_title_medium"><center>  Architecture Overview</center></H3>
+  Check the supress_menus flag in titles.json 
+ 
 -->
 
-<!--
-<div id="onap_lfn_menu">
--->
 <?php 
 require_once "php/onapdocs_functions.php";
 //echo "REQUEST_METHOD:" . $_SERVER['REQUEST_METHOD']; 
-$supress_menus = get_supress_menus_option();
+
+$json_db = "json_db";
+$titles_file = "titles.json";
+$release_name = $_SESSION['release'];
+$slash = "/";
+$titles_file = $json_db . $slash . $release_name . $slash . "json" .  $slash . $titles_file;
+
+//echo "titles_file: " . $titles_file . PHP_EOL;
+$supress_menus = get_supress_menus_option($titles_file);
 //echo "supress_menus**: " ."(" . $supress_menus .")";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' and $supress_menus == 'no' )
