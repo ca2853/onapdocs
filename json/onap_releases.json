@@ -14,8 +14,8 @@
 			"image_uri" : "",
 			"image_sz" : "Not set yet",
 			"name" : "Architecture Overview",
-			"display_str" : "Not Set Yet",
-			"display_default": "no",
+			"display_str" : "Architecture Overview",
+			"display_default": "yes",
 			"status": ""
 			},
 			{
@@ -44,7 +44,7 @@
         "sav_image_uri" : "guilin/images/Master-onap-diagram.png",
         "image_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-guilin-r7-nov-30-2020.png?version=2&modificationDate=1606771415494&api=v2",
         "image_sz" : "1280",
-        "release_status": "disabled",
+        "release_status": "enabled",
         "release_color": "blue",
         "display_default": "no",
 	"options" : [
@@ -53,8 +53,8 @@
 			"image_uri" : "",
 			"image_sz" : "Not set yet",
 			"name" : "Architecture Overview",
-			"display_str" : "Not Set Yet",
-			"display_default": "no",
+			"display_str" : "Architecture Overview",
+			"display_default": "yes",
 			"status": ""
 			},
 			{
@@ -81,7 +81,7 @@
 			"image_sz" : "Not set yet",
 			"name" : "Major ONAP Use Cases",
 			"display_str" : "Major ONAP Use Cases",
-			"display_default": "yes",
+			"display_default": "no",
 			"status": "enabled"
 			},
 			{
@@ -109,8 +109,8 @@
 			"image_uri" : "",
 			"image_sz" : "Not set yet",
 			"name" : "Architecture Overview",
-			"display_str" : "Not Set Yet",
-			"display_default": "no",
+			"display_str" : "Architecture Overview",
+			"display_default": "yes",
 			"status": "enabled"
 			},
 			{
@@ -120,7 +120,7 @@
 			"name" : "Components Arch/APIs",
 			"display_str" : "Not Set Yet",
 			"display_default": "no",
-			"status": "enabled"
+			"status": "disabled"
 			},
 			{
 			"value" :"comp-review",
@@ -137,7 +137,7 @@
 			"image_sz" : "Not set yet",
 			"name" : "Major ONAP Use Cases",
 			"display_str" : "Major ONAP Use Cases",
-			"display_default": "yes",
+			"display_default": "no",
 			"status": "enabled"
 			}
 		
@@ -159,7 +159,7 @@
 			"name" : "Architecture Overview",
 			"display_str" : "Architecture Overview",
 			"display_default": "no",
-			"status": ""
+			"status": "disabled"
 			},
 			{
 			"value" : "comp-review",
@@ -177,7 +177,7 @@
 			"name" : "Major ONAP Use Cases",
 			"display_str" : "Major ONAP Use Cases",
 			"display_default": "yes",
-			"status": "enabled"
+			"status": "disabled"
 			}
 		
 		]
