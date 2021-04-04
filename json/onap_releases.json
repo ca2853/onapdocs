@@ -146,7 +146,7 @@
 	{
 	"release_name":"Istanbul-R9 - (In planning - M0: Apr 1, 2021)",
         "release_value" : "istanbul",
-	"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-draft.png?api=v2",
+	"image_uri" : "",
 	"image_sz" : "Not set yet",
         "release_status": "",
         "release_color": "green",
@@ -154,16 +154,16 @@
 	"options" : [
 			{
 			"value" : "arch-overview",
-			"image_uri" : "",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-draft.png?api=v2",
 			"image_sz" : "Not set yet",
 			"name" : "Architecture Overview",
 			"display_str" : "Architecture Overview",
 			"display_default": "no",
-			"status": "disabled"
+			"status": "enabled"
 			},
 			{
 			"value" : "comp-review",
-			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-comp%20reviews.png?api=v2",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-comp%20reviews%20-%20Mar-30%202021.png?api=v2",
 			"image_sz" : "Not set yet",
 			"name" : "Components Architecture Reviews",
 			"display_str" : "Components Architecture Reviews Dashboard",
