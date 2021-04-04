@@ -6,14 +6,14 @@
 
 function format_img_tag ($onap_obj_file, $c_name, $css_tag) 
 {
-//$json_obj_file = $onap_Obj_file;
+$json_obj_file = $onap_Obj_file;
 
 //$css_tag = "position-component";
 //$c_name = "EXTAPI";
 $usemap = $c_name . "_Map";
 $real_img_sz = array();
 
-// <<<< DEBUG >>>> echo "onap_obj_file: " . $onap_obj_file . PHP_EOL;
+ echo "<<<< DEBUG >>>> " . "onap_obj_file: " . $onap_obj_file . PHP_EOL;
 $readjson = file_get_contents($onap_obj_file);
 
 //Decode JSON
@@ -283,8 +283,8 @@ foreach ($data as $rel) {
                 echo "<img  id = " . "\"". $css_tag ."\"\n";
                 echo "\tsrc = ";
                 echo "\"" . $image_uri . "\"\n";
-//echo "\talt = \"Image file" .$rel['image_uri'] . " not found\"\n";
-                echo "\talt = \"$release_name/$doc_type\"\n";
+echo "\talt = \"Image file: " . $image_uri . " not found\"\n";
+                //echo "\talt = \"$release_name/$doc_type\"\n";
                 echo "\tusemap = "."\""."#".$doc_type."\""."\n";
                 echo "\n>\n";
                 echo "\t<map name = "."\"".$doc_type."\"".">\n";
