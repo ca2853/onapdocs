@@ -1,9 +1,16 @@
 
-<?php session_start();
-ini_set('session.cache_limiter', 'private');	
+<?php 
+//ini_set('session.cache_limiter', 'private');	
+
+require_once "php/onapdocs_functions.php";
 
 // Read JSON file
-$file_name = 'json/onap_releases.json';
+$dir_path= format_db_path();
+$file_name = $dir_path . "/" . "global_config/topics.json";
+
+
+//echo $file_name;
+
 $readjson = file_get_contents($file_name);
 
 //

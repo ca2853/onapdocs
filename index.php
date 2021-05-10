@@ -6,69 +6,37 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 -->
 
+<?php
+        session_start();
+      //Put session start at the beginning of the file
+        //ini_set('session.cache_limiter', 'private');
+        header("Expires: Sat, 01 Jan 2000 00:00:00 GMT");
+        header("Last-Modified: ".gmdate("D, d M Y H:i:s")." GMT");
+        header("Cache-Control: post-check=0, pre-check=0",false);
+        //session_cache_limiter("must-revalidate");
+	//
+//	echo "In " . __FILE__ . ", Session Name: " . session_name();
 
+
+?>
+
+
+<?php
+	/*include 'server.php'; /* format page bitmap coords */
+	include 'php/parse_url.php'; /* format page bitmap coords */
+?>
 <HTML>
 <HEAD>
 <TITLE><?php include 'php/get_main_title.php' ?></TITLE>
-<link rel="stylesheet" href="css/menu_style.css"> 
+<link rel="stylesheet" href=<?php include 'php/set_css.php' ?> >  
 </HEAD>
 
 <style>
 
-h2.a {
-	font-style: normal;
-	font-size: 21px;
-	color: magenta;
-	margin-left: 0;
-}
-
-ul.a {
-	font-style: italic;
-	font-size: 17px;
-	color: firebrick;
-	list-style-type: disc;
-	margin-left: 30px;
-	margin-bottom: 0px;
-}
-
-ul.b {
-	font-style: italic;
-	font-size: 15px;
-	color: firebrick;
-	list-style-type: circle;
-	margin-left: 30px;
-	margin-top: 0px;
-	line-height:10%
-}
-
-ul.d {
-	/*
-	font-style: italic;
-	*/
-	font-size: 15px;
-	color: black;
-	list-style-type: circle;
-	margin-left: 30px;
-	margin-top: 0px;
-	line-height:10%
-}
-ul.c {
-/*
-	font-style: italic;
-*/
-	font-size: 12px;
-	color: darkblue;
-	list-style-type: circle;
-	margin-left: 60px;
-	margin-top: 0px;
-	line-height:10%
-}
-
-p.c {
-  font-style: oblique;
-}
 </style>
+
 <body>
+
 
 <div id="sub_main_menu_wrapper">
 <center><font size="3"  color="black" style="font-style:italic;background-color:yellow;"><?php include 'php/get_release_prop_msg.php' ?></font></center>
@@ -96,7 +64,7 @@ p.c {
 
 
 <br><br>
-<input type="submit" value="<?php include 'php/get_submit_prompt.php' ?>">
+<input type="submit" value=<?php include 'php/get_submit_prompt.php' ?> >
 </form>
 
 </div>

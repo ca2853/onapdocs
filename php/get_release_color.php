@@ -1,20 +1,16 @@
 
-<?php
+<?php 
 
+require_once "onapdocs_functions.php";
+
+$base_dir_path= format_db_path();
+//$file_name = $dir_path . "/" . "global_config/titles.json";
 //
-// 	DO NOT MODIFIED THIS FUNCTION BEFORE YOU READ THE COMMENTS 
-//
-// json/titles.json file has to exist as Release Name and Doc_type are not 
-// defined until  Menu1 and Menu2 are created and a selection is made
-//
-$file_name = "json/titles.json";
+$config_file_name = "nav_config.json";
+$topic_name = "";
+$attr_name = "onapdocs_release_color";
 
-$readjson = file_get_contents($file_name);
+$title_file_path = set_config_path ($base_dir_path, $topic_name, $config_file_name);
 
-//Decode JSON
-$data = json_decode($readjson, true);
-
-foreach ($data as $rec) {
-		echo  $rec['onapdocs_release_color'];
-}
+echo  get_json_attr ($title_file_path, $attr_name);
 ?> 

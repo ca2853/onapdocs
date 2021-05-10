@@ -32,12 +32,21 @@ ol, ul {
 	background-color: lightblue;
 }
 
+#prop_msg_wrapper{
+	width:820px;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 0px;
+	border: 1px solid blue;
+	background-color: white;
+}
+
 #main_menu_wrapper{
 	width:820px;
 	padding:20px;
-	margin:0 auto;
+	margin:1 auto;
 	margin-top:10px;
-	border: 1px solid blue;
+	border: 1px solid #047774;
 	background-color: lightblue;
 }
 
@@ -46,7 +55,7 @@ ol, ul {
 	padding:20px;
 	margin:0 auto;
 	margin-top:5px;
-	border: 1px solid lightgrey;
+	border: 0px solid lightgrey;
 	/*
 	background-color: PaleGoldenrod;
 	background-color: white;
@@ -81,31 +90,31 @@ ol, ul {
 }
 
 #main_menu_title_large{
-	color:black; 
-	font-size:30px;
-	font-style:normal;
-	border: 0px solid green;
-	width:450px;
-	margin-left:auto;
-	margin-right:auto;
+	color: #047774; 
+	font-size: 30px;
+	font-style: normal;
+	font-weight:bold;
+	border:  2px solid #047774;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #main_menu_title_medium{
 	color: #047774; 
 	font-size: 20;
 	width: 350px;
-	border: 0px solid #047774;
+	border: 1px solid blue;
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 1.25em;
 }
 
 #main_menu_title_small{
-	color:darkblue; 
-	font-size:13;
-	width:250px;
+	color: darkblue; 
+	font-size:12;
+	width:750px;
 	font-style:italic;
-	border: 0px solid red;
+	border: 2px solid red;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -114,16 +123,14 @@ ol, ul {
 	position:relative;
 	width:850px;
 	margin:0 auto;
-	border: 0px solid #ff9999;
+	border: 0px solid black;
 }
 
 ul#navigation {
 	margin:0px auto;
 	position:relative;
 	float:left;
-	/*
-	border-left:0px solid #c4dbe7;
-	*/
+	border-left:2px solid #c4dbe7;
 	border-right:0px solid #c4dbe7;
 	border: 0px solid grey;
 }
@@ -238,7 +245,7 @@ canvas-scaling{
 #position-main{
     	width: 900px;
 	height: auto;
-	border: 1px solid green;
+	border: 2px solid blue;
     	margin-top:2px;
 	padding:0px;
 	margin-left:auto;
@@ -277,4 +284,75 @@ canvas-scaling{
 	display: block;
 	background-color: #EFFBF8;
 }
+.div-1 {
+  background-color: lightblue;
+  border: 1px  solid blue;
+  height: 60px;
+  width: 850px;
+  margin: 0  auto;
+}
+.div-2 {
+        /*
+  background-color: red;
+  */
+  border: 1px  solid red;
+  height: 100px;
+  width: 400px;
+  margin: 0  auto;
+  margin-top:5px;
+}
 
+.div-3 {
+	/*
+  background-color: yellow;
+  */
+  height: 200px;
+  width: 300px;
+  margin: 0  auto;
+  border: 1px solid green;
+  margin-top:5px;
+}
+
+/*
+ * Hover CSS classes
+ */
+
+
+.image-map-container {
+	[position: relative;
+  background-color: lightblue;
+  border: 1px  solid blue;
+  height: auto;
+  width: 900px;
+  margin: 0  auto;
+}
+.image-map-container .map-selector {
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  color:#546E7A00;
+  transition-duration: .3s;
+        transition-timing-function: ease;
+        transition-property: top, left, right, bottom, color;
+}
+
+.image-map-container .map-selector.hover {
+  color:#546E7A80;
+}
+
+.map-selector:after {
+        content: '';
+        position: absolute;
+        background: currentColor;
+        top: inherit;
+        right: inherit;
+        bottom: inherit;
+        left: inherit;
+        background: currentColor;
+        transition-duration: .3s;
+        transition-timing-function: ease-out;
+        transition-property: top, left, right, bottom, background;
+        pointer-events: none;
+}
+                                           

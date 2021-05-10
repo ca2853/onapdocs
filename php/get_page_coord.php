@@ -9,9 +9,11 @@
 //
 $release_name = $_POST['release'];
 $doc_type = $_POST['doc_type'];
-$json_dir = 'json';
+
+$dir_path= format_db_path();
+
 $dash = '-';
-$file_name = $json_dir."/".$release_name.$dash.$doc_type.$dash."page-coords".".json";
+$file_name = $dir_path."/".$release_name.$dash.$doc_type.$dash."page-coords".".json";
 
 #echo "$file_name\n";
 

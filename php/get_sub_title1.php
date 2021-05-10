@@ -1,15 +1,16 @@
-<?php
 
-$file_name = "json/titles.json";
+<?php 
 
-$readjson = file_get_contents($file_name);
+require_once "onapdocs_functions.php";
 
-//Decode JSON
-$data = json_decode($readjson, true);
+$base_dir_path= format_db_path();
+//$file_name = $dir_path . "/" . "global_config/titles.json";
+//
+$config_file_name = "nav_config.json";
+$topic_name = "";
+$attr_name = "sub_title1";
 
-foreach ($data as $rec)
-{
-	echo  $rec['sub_title1'] . "\n";
+$title_file_path = set_config_path ($base_dir_path, $topic_name, $config_file_name);
 
-}
+echo  get_json_attr ($title_file_path, $attr_name);
 ?> 

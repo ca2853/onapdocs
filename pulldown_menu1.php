@@ -6,17 +6,31 @@
 // Read JSON file
 //
 
-$file_name = 'json/onap_releases.json';
+$dir_path= format_db_path();
+$file_name = $dir_path . "/" . "global_config/topics.json";
+
+if (file_exists ($file_name) === FALSE) {
+        //
+        // Return an error msg if the nav)config.json file does not exist
+        //
+        echo  <<<EOT
+file $file_name does not exist.
+EOT;
+        exit;
+}
+
+
 $readjson = file_get_contents($file_name);
 
 //Decode JSON
 $data = json_decode($readjson, true);
 
 //
-// only set the "select" option once and ignore any subsequent
+// only set the "selected" option once and ignore any subsequent
 // release entries that may have it set by mistake
 
 $found_default_option = 0;
+
 foreach ($data as $loc) {
 
 	echo "<option Value=\"";

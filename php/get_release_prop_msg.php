@@ -1,21 +1,16 @@
-<?php
 
-$file_name = "json/titles.json";
+<?php 
 
-$readjson = file_get_contents($file_name);
+require_once "onapdocs_functions.php";
 
-//Decode JSON
-$data = json_decode($readjson, true);
+$base_dir_path= format_db_path();
+//
+$config_file_name = "nav_config.json";
+$topic_name = "";
+$attr_name = "release_prop_msg";
 
-foreach ($data as $rec) {
-	/*
-	if ($rec['comp_name'] == $c_name) 
-	{
-	 */
-		printf ("%s", $rec['release_prop_msg']) ;
-	/*
-		break;
-	}
-	 */
-}
+$title_file_path = set_config_path ($base_dir_path, $topic_name, $config_file_name);
+//echo "in: " , __FILE__ . " title_file_path >>> (" . $title_file_path . ")\n";
+
+echo  get_json_attr ($title_file_path, $attr_name);
 ?> 

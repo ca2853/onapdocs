@@ -7,8 +7,13 @@ $doc_type = $_SESSION['doc_type'];
 
 //$rel_name = "honolulu";
 //$doc_type = "comp-review";
+//
 
-$file_name = "json/onap_releases.json";
+$dir_path= format_db_path();
+//$file_name = $dir_path . "/". $rel_name . "/" . $doc_type . "/" . "onap_releases.json";
+$file_name = $dir_path . "/" .  "global_config/topics.json";
+//echo "in set_page_heaer.php: " . $file_name;
+
 
 $readjson = file_get_contents($file_name);
 

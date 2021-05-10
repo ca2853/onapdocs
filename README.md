@@ -1,3 +1,4 @@
+
 # onapdocs
 This repository holds all the source code for the ONAPDOCS project sponsored by the ONAP Architecture subcommittee
 	- Testing Git - 10/01/2020 update
@@ -52,3 +53,13 @@ Mar 26, 2021
 Apr 1, 2021
 	Added logic to use local json dir at the doc_type level (titles.json) once the selection from 
 	the first screen has been made
+Apr 22, 2021
+	- created a /data dir for all the json file
+	- one code base will now support all many configs
+	- added code to parse out the string after https://safratech.net/onapdocs-dev (onapdocs-dev) 
+	- topics.json is a now a common json file; it is symbolically linked to the appopriate .json 
+		file as per the string wntered on on the URI (path)
+Apr 23, 2021
+	- Added logic to loog for css file in the css dir. there should always be a default_naigator_sheet.css in 		that dir to be used as default. custom css file can be used by creating css files with filenam 
+		format as follows: "uri path"_navigator_sheet.css
+			ex: onapdocs-dev_navigator_sheet.css

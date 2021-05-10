@@ -1,7 +1,8 @@
-<?php session_start();
+<?php 
+//session_start();
 //
-// $_SESSION['release'] has a copy of the $_POST['release']
-// $_SESSION['doc_type'] has a copy of the $_POST['doc_type']
+// $__SESSION['release'] has a copy of the $_POST['release']
+// $__SESSION['doc_type'] has a copy of the $_POST['doc_type']
 // You shou thik of _SESSION as a non-persistant cookie tha
 // only lasts for the duration of the session
 // 
@@ -9,10 +10,10 @@
 require_once "onapdocs_functions.php";
 
 
-$release_name = $SESSION["release"];
-$doc_type = $SESSION["doc_type"];
+$release_name = $_SESSION["release"];
+$doc_type = $_SESSION["doc_type"];
 
-$json_db="json_db";
+$json_db="/data/navigator_db" .  "/" . $_SESSION["path"]; . "/" . "json_db"
 $onap_obj_file = $json_db . "/" . $release_name . "/" . $doc_type . "/onapdocs_obj_file.json";
 
 echo "<<<< DEBUG in main.php>>>>" .  $release_name  . "(" . $doc_type . ")" . PHP_EOL;;

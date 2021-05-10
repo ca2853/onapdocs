@@ -1,0 +1,322 @@
+/* css reset - makes the layout looking good in all browsers
+  */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 5;
+	padding: 5;
+	border: 1px blue;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section 
+{
+	display: block; 
+}
+
+body
+{
+	line-height: 2; 
+	font:24px/20px Arial;
+	background:#e0f3ff url(bg.png) repeat scroll 0 0;
+}
+ol, ul {
+	list-style: none; }
+
+/* Main Styles */	
+	
+#wrapper{
+	width:1000px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin:0 auto;
+	border: 3px solid magenta;
+	background-color: orange;
+}
+
+#main_menu_wrapper{
+	width:820px;
+	padding:20px;
+	margin:0 auto;
+	margin-top:10px;
+	border: 1px solid blue;
+	background-color: lightblue;
+}
+
+#sub_main_menu_wrapper{
+	width:820px;
+	padding:20px;
+	margin:0 auto;
+	margin-top:10px;
+	border: 2px solid blue;
+}
+
+#main_menu_title_large{
+	color:black; 
+	font-size:30px;
+	font-style:normal;
+	border: 1px solid green;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main_menu_title_medium{
+	color:black; 
+	font-size:20;
+	width:350px;
+	border: 1px solid blue;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main_menu_title_small{
+	color:grey; 
+	font-size:15;
+	width:250px;
+	font-style:italic;
+	border: 1px solid red;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nav {
+	position:relative;
+	width:850px;
+	margin:0 auto;
+	border: 5px solid orange;
+	background-color: lightblue
+}
+
+ul#navigation {
+	margin:0px auto;
+	position:relative;
+	float:left;
+	border-left:0px solid #c4dbe7;
+	border-right:0px solid #c4dbe7;
+	border: 2px solid grey;
+}
+
+ul#navigation li {
+	display:inline;
+	font-size:12px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
+	border-top:0px solid #c4dbe7;
+	border-bottom:0px solid #c4dbe7;
+}
+
+ul#navigation li a {
+	padding:10px 25px;
+	color:#616161;
+	text-shadow:1px 1px 0px #fff;
+	text-decoration:none;
+	display:inline-block;
+	border-right:1px solid #fff;
+	border-left:1px solid blue;
+	border-top:1px solid #fff;
+	background: #f5f5f5;
+	
+	-webkit-transition:color 0.2s linear, background 0.2s linear;	
+	-moz-transition:color 0.2s linear, background 0.2s linear;	
+	-o-transition:color 0.2s linear, background 0.2s linear;	
+	transition:color 0.2s linear, background 0.2s linear;	
+}
+
+ul#navigation li a:hover {
+	background:#f8f8f8;
+	color:#282828;
+}
+
+ul#navigation li:hover > a {
+	background:#fff;
+}
+
+/* Drop-Down Navigation */
+ul#navigation li:hover > ul
+{
+	visibility:visible;
+	opacity:1;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;    
+	visibility:hidden;
+    position: absolute;
+    z-index: 99999;
+	width:180px;
+	background:#f8f8f8;
+	box-shadow:1px 1px 3px #ccc;
+	opacity:0;
+	-webkit-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-moz-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-o-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	transition:opacity 0.2s linear, visibility 0.2s linear; 	
+}
+
+ul#navigation ul {
+    top: 43px;
+    left: 1px;
+}
+
+ul#navigation ul li ul {
+    top: 0;
+    left: 181px;
+}
+
+ul#navigation ul li {
+	clear:both;
+	width:100%;
+	border:0 none;
+	border-bottom:1px solid blue;
+}
+
+ul#navigation ul li a {
+	background:none;
+	padding:7px 15px;
+	color:#616161;
+	text-shadow:1px 1px 0px #fff;
+	text-decoration:none;
+	display:inline-block;
+	border:0 none;
+	float:left;
+	clear:both;
+	width:150px;
+}
+
+ul#navigation li a.first {
+	border-left: 0 none;
+}
+
+ul#navigation li a.last {
+	border-right: 0 none;
+}
+
+canvas-scaling{
+        -ff-transform: scale(2);
+        -ms-transform: scale(2);
+        -webkit-transform: scale(2);
+}
+
+
+#position-main{
+    	width: 900px;
+	height: auto;
+	border: 2px solid magenta;
+    	margin-top:2px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+#dev_page{
+    	width: 800px;
+	border: 2px solid magenta;
+    	margin-top:2px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+#position-component{
+	position:relative;
+    	width: 850;
+    	height: 700;
+	border: 1px solid blue;
+    	margin-top:0px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+#onap_lfn_menu {
+	border: 2px solid blue;
+	width: 50px;
+	margin: 0 auto;
+	margin-top:50px;
+	display: block;
+	background-color: #EFFBF8;
+}
+
+.image-map-container {
+	/*
+	left: 100px;
+	*/
+/*
+ * If the margin property has two values:
+ *   margin: 10px 5px;
+ *       top and bottom margins are 5px
+ *       right and left margins are 100px
+	position: relative;
+	margin: auto ;
+	border: 5px solid brown;
+	width: auto; 
+ */
+    	width: 900px;
+	height: auto;
+	border: 3px solid lightblue;
+    	margin-top:2px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	position: relative;
+}
+/*
+.image-map-container img {
+    	width: 900px;
+	height: auto;
+	border: 3px solid magenta;
+    	margin: 0 auto;
+	padding:0px;
+	display:flex;
+justify-content: center;
+	position: relative;
+}
+*/
+.image-map-container .map-selector {
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  color:#546E7A00;
+  transition-duration: .3s;
+	transition-timing-function: ease;
+	transition-property: top, left, right, bottom, color;
+}
+.image-map-container .map-selector.hover {
+  color:#546E7A80;
+}
+
+.map-selector:after {
+	content: '';
+	position: absolute;
+	background: currentColor;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: inherit;
+	background: currentColor;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+	transition-property: top, left, right, bottom, background;
+	pointer-events: none;
+}
+div-1 {
+        /*
+         *
+  */
+  background-color: darkgrey;
+  border: 1px  solid blue;
+  height: 50px;
+  width: 500px;
+  margin: 0  auto;
+}
+
