@@ -1,0 +1,18 @@
+[
+        {
+                "main_title" : "LF 5G Super Blueprint",
+                "sub_title" : "Architecture Subcommittee Documentation Navigator",
+                "sub_title1" : "ONAPARCH Navigator Rel",
+                "sub_title2" : "sub_title2",
+                "onapdocs_release_name" : "2.1ops",
+                "onapdocs_release_color" : "red",
+		"main_page_prompt": "Please Make a Selection",
+		"main_page_prompt_color": "red",
+		"submit_tag": "Press Submit",
+		"supress_menus": "yes",
+		"debug_mode": "on",
+		"prop_msg_bg_color" : "lightgreen",
+                "release_prop_msg" : "This site is not an official LF 5G Super Blueprint Documentation site. The LF 5G Super Blueprint Site documentation can be found<a href=\"https://www.lfnetworking.org/5g-super-blueprint/\">here.</a>ONAP is a registered trademark of The Linux Foundation.This dashboard is in Beta and not yet comprehensive/complete. Please send any feedback you may have to the<a href=\"mailto:onap-arc@lists.onap.org\">ONAP Architecture Subcommittee</a> "
+        }
+]
+

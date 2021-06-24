@@ -1,0 +1,187 @@
+[
+
+	{
+	"release_name":"Frankfurt-R6 (04-Jun-2020)",
+        "release_value" : "frankfurt",
+	"image_uri" : "https://wiki.onap.org/download/attachments/84651745/master-onap-diagram-frankfurt-sep-04-2020.png?api=v2",
+	"image_sz" : "Not set yet",
+        "release_status": "enabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "yes",
+			"status": ""
+			},
+			{
+			"value" : "comp-review",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Components Architecture Reviews",
+			"display_str" : "Components Architecture Review Dashboard",
+			"display_default": "no",
+			"status": "enabled"
+			},
+			{
+			"value" :"use-cases",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/ONAP_UseCase_Diag-June-23-2021.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Major ONAP Use Cases",
+			"display_str" : "Major ONAP Use Cases",
+			"display_default": "yes",
+			"status": "enabled"
+			}
+		]
+	},
+	{
+	"release_name":"Guilin-R7 - (07-Dec-2020)",
+        "release_value" : "guilin",
+        "sav_image_uri" : "guilin/images/Master-onap-diagram.png",
+        "image_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-guilin-r7-nov-30-2020.png?version=2&modificationDate=1606771415494&api=v2",
+        "image_sz" : "1280",
+        "release_status": "enabled",
+        "release_color": "blue",
+        "display_default": "no",
+	"options" : [
+		{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "yes",
+			"status": ""
+			},
+			{
+			"value" :"dev-guide",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Components Arch/APIs",
+			"display_str" : "Not Set Yet",
+			"display_default": "no",
+			"status": "disabled"
+			},
+			{
+			"value" :"comp-review",
+			"image_uri" : "https://wiki.onap.org/download/attachments/84666957/master-onap-diagram-honolulu-r8-comp%20reviews.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Components Architecture Reviews",
+			"display_str" : "Not Set Yet",
+			"display_default": "no",
+			"status": "disabled"
+			},
+			{
+			"value" :"use-cases",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/ONAP_UseCase_Diag-June-23-2021.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Major ONAP Use Cases",
+			"display_str" : "Major ONAP Use Cases",
+			"display_default": "no",
+			"status": "enabled"
+			},
+			{
+			"value" :"flows",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Component Flows",
+			"display_str" : "Not Set Yet",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		]
+	},
+	{
+	"release_name":"Honolulu-R8 - (11-May-2021)",
+        "release_value" : "honolulu",
+	"image_uri" : "https://wiki.onap.org/download/attachments/84666957/master-onap-diagram-honolulu-r8-official.png?api=v2",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "yes",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "yes",
+			"status": "enabled"
+			},
+			{
+			"value" :"dev-guide",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Components Arch/APIs",
+			"display_str" : "Not Set Yet",
+			"display_default": "no",
+			"status": "disabled"
+			},
+			{
+			"value" :"comp-review",
+			"image_uri" : "https://wiki.onap.org/download/attachments/84666957/master-onap-diagram-honolulu-r8-comp%20reviews.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Components Architecture Reviews",
+			"display_str" : "ONAP Components Architecture Reviews Dashboard",
+			"display_default": "yes",
+			"status": "enabled"
+			},
+			{
+			"value" :"use-cases",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/ONAP_UseCase_Diag-June-23-2021.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Major ONAP Use Cases",
+			"display_str" : "Major ONAP Use Cases",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"Istanbul-R9 - (M3: Aug 26, 2021)",
+        "release_value" : "istanbul",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "",
+        "release_color": "green",
+        "display_default": "yes",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-draft-June-22-2021.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			},
+			{
+			"value" : "comp-review",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/master-onap-diagram-istanbul-r9-comp%20reviews%20-%20Jun%2022-2021.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Components Architecture Reviews",
+			"display_str" : "Components Architecture Reviews Dashboard",
+			"display_default": "yes",
+			"status": "enabled"
+			},
+			{
+			"value" :"use-cases",
+			"image_uri" : "https://wiki.onap.org/download/attachments/93012370/ONAP_UseCase_Diag-June-23-2021.png?api=v2",
+			"image_sz" : "Not set yet",
+			"name" : "Major ONAP Use Cases",
+			"display_str" : "Major ONAP Use Cases",
+			"display_default": "yes",
+			"status": "enabled"
+			}
+		
+		]
+	}
+]
+
+

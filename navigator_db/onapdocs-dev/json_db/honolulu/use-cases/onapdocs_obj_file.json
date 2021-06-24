@@ -1,0 +1,452 @@
+[
+	{
+	"id":"area1",
+	"name":"SON",
+	"shape":"rect",
+	"coords":"82,168,245,193",
+	"a_href":"https://wiki.onap.org/display/DW/Self+Optimizing+Networks+%28SON%29+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area2",
+	"name":"O-RAN",
+	"shape":"rect",
+	"coords":"85,210,250,235",
+	"a_href":"https://wiki.onap.org/display/DW/MOBILITY+STANDARDS+HARMONIZATION+WITH+ONAP",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area3",
+	"name":"O-RAN",
+	"shape":"rect",
+	"coords":"85,253,250,278",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=84644984",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area4",
+	"name":"5G-Slicing",
+	"shape":"rect",
+	"coords":"85,296,250,322",
+	"a_href":"https://wiki.onap.org/display/DW/Network+Slicing+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area5",
+	"name":"5G-Service-Modeling",
+	"shape":"rect",
+	"coords":"85,340,250,365",
+	"a_href":"https://wiki.onap.org/display/DW/5G+Service+Modeling+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area6",
+	"name":"CCVPN-Transport-Slicing-RAN",
+	"shape":"rect",
+	"coords":"85,384,250,408",
+	"a_href":"https://wiki.onap.org/display/DW/CCVPN+Transport+Slicing+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area7",
+	"name":"PNF Onboarding",
+	"shape":"rect",
+	"coords":"380,168,540,193",
+	"a_href":"https://wiki.onap.org/display/DW/PNF+Preonboarding+Onboarding+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area8",
+	"name":"PNF Software Upgrade",
+	"shape":"rect",
+	"coords":"380,213,540,238",
+	"a_href":"https://wiki.onap.org/pages/viewpage.action?pageId=40206496",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area9",
+	"name":"PNF Plug and Play",
+	"shape":"rect",
+	"coords":"380,256,540,282",
+	"a_href":"https://wiki.onap.org/display/DW/PNF+Plug+and+Play+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area10",
+	"name":"PNF Bulk PM",
+	"shape":"rect",
+	"coords":"372,300,540,328",
+	"a_href":"https://wiki.onap.org/display/DW/Bulk+PM+-+PM+Data+Control+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area11",
+	"name":"PNF RT PM",
+	"shape":"rect",
+	"coords":"372,345,540,370",
+	"a_href":"https://wiki.onap.org/display/DW/PNF+Real-Time+Performance+Measurements+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area11-1",
+	"name":"ETSI Alignment",
+	"shape":"rect",
+	"coords":"641,168,811,194",
+	"a_href":"https://wiki.onap.org/display/DW/ETSI+Alignment+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area12",
+	"name":" CMP v2 X 509",
+	"shape":"rect",
+	"coords":"643,210,811,235",
+	"a_href":"https://wiki.onap.org/display/DW/Certificate+Management+Protocol+%28CMPv2%29+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area13",
+	"name":"MDONS",
+	"shape":"rect",
+	"coords":"643,253,811,278",
+	"a_href":"https://wiki.onap.org/display/DW/Multi-domain+Optical+Network+Services",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area14",
+	"name":"Intent Based Networking",
+	"shape":"rect",
+	"coords":"643,296,811,321",
+	"a_href":"https://wiki.onap.org/display/DW/Intent+Based+Networking+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area15",
+	"name":"Vertical Industry Mgmt",
+	"shape":"rect",
+	"coords":"643,339,811,365",
+	"a_href":"https://wiki.onap.org/display/DW/Support+for+Vertical+Industry",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area16",
+	"name":"Licensing Mgmt",
+	"shape":"rect",
+	"coords":"643,382,811,406",
+	"a_href":"https://wiki.onap.org/display/DW/Licensing+Management+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area17",
+	"name":"Broadban Services",
+	"shape":"rect",
+	"coords":"643,425,811,451",
+	"a_href":"https://wiki.onap.org/display/DW/Residential+Broadband+vCPE+Base+Use+Case+Page",
+	"d_href":"",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	}
+]

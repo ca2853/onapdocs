@@ -1,0 +1,227 @@
+[
+	{
+	"id":"area1",
+	"name":"Non-Realtime RIC",
+	"shape":"rect",
+	"coords":"217,52,377,78",
+	"a_href":"https://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/latest/overview.html#nonrtric-components",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area2",
+	"name":"O-DU",
+	"shape":"rect",
+	"coords":"367,436,485,461",
+	"a_href":"https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-phy/en/latest/index.html",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area3",
+	"name":"A1 Interface",
+	"shape":"rect",
+	"coords":"367,436,485,461",
+	"a_href":"https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-phy/en/latest/index.html",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area4",
+	"name":"O-RU",
+	"shape":"rect",
+	"coords":"375,491,481,517",
+	"a_href":"https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-phy/en/latest/Transport-Layer-and-ORAN-Fronthaul-Protocol-Implementation_fh.html?highlight=O-RU",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area5",
+	"name":" Open Frontahul Interface",
+	"shape":"rect",
+	"coords":"224,467,405,484",
+	"a_href":"https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-phy/en/latest/Transport-Layer-and-ORAN-Fronthaul-Protocol-Implementation_fh.html?highlight=O-RU",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area6",
+	"name":"O-CU-CP",
+	"shape":"rect",
+	"coords":"324,287,424,316",
+	"a_href":"url_not_set.php",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area7",
+	"name":"O-CU-UP",
+	"shape":"rect",
+	"coords":"557,308,657,337",
+	"a_href":"url_not_set.php",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area8",
+	"name":"Near-Realtime RIC",
+	"shape":"rect",
+	"coords":"236,200,399,235",
+	"a_href":"url_not_set.php",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	},
+	{
+	"id":"area9",
+	"name":"O-eNB",
+	"shape":"rect",
+	"coords":"97,290,154,323",
+	"a_href":"url_not_set.php",
+	"d_href":"https://docs.onap.org/en/latest/guides/overview/index.html",
+	"target":"__blank",
+	"comp_detail" : {
+                "img_uri" : "https://wiki.onap.org/download/attachments/84651740/master-onap-diagram-latest-r7-sep-08-2020.png?version=1&modificationDate=1604076216000&api=v2",
+                "img_uri_sz_w" : "2186", 
+                "img_uri_sz_h" : "1716", 
+                "api" : [
+				{
+				"id":"api01",
+				"name" : "Not Populated Yet",
+				"shape" : "",
+				"coords" : "",
+				"href" : "",
+				"target" : "__blank"
+				}
+			]
+                }
+
+	}
+]

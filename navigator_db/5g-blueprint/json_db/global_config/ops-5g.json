@@ -1,0 +1,34 @@
+[
+
+	{
+	"release_name":"E2E Open Source Software Collaberation",
+        "release_value" : "ops-5g",
+	"image_uri" : "ops.png",
+	"image_sz" : "Not set yet",
+        "release_status": "enabled",
+        "release_color": "green",
+        "display_default": "yes",
+	"options" : [
+			{
+			"value" : "overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Overview-old",
+			"display_str" : "Open, Programmable, Secure 5G - OPS-5G",
+			"display_default": "no",
+			"status": "enabled"
+			},
+			{
+			"value" : "overview-1",
+			"image_uri" : "ops-5g-new.png",
+			"image_sz" : "Not set yet",
+			"name" : "Overview",
+			"display_str" : "E2E Open Source Software Collaboration",
+			"display_default": "yes",
+			"status": "enabled"
+			}
+		]
+	}
+]
+
+

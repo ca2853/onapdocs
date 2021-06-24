@@ -1,0 +1,17 @@
+[
+        {
+                "main_title" : "ONAP Platform (DevEnv)",
+                "sub_title" : "Architecture Subcommittee Documentation Navigator",
+                "sub_title1" : "ONAPARCH Navigator Release(DevEnv)",
+                "sub_title2" : "sub_title2",
+                "onapdocs_release_name" : "2.1",
+                "onapdocs_release_color" : "red",
+		"main_page_prompt": "Please Make a Selection",
+		"main_page_prompt_color": "darkblue",
+		"submit_tag": "Submit",
+		"supress_menus": "yes",
+		"debug_mode": "on",
+                "release_prop_msg" : "This site is not an official ONAP project site. The ONAP documentation can be found<a href=\"https://docs.onap.org/en/guilin/\">here.</a>ONAP is a registered trademark of The Linux Foundation.This dashboard is in Beta and not yet comprehensive/complete. Please send any feedback you may have to the<a href=\"mailto:onap-arc@lists.onap.org\">ONAP Architecture Subcommittee</a> "
+        }
+]
+

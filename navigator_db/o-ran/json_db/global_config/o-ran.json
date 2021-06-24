@@ -1,0 +1,63 @@
+[
+
+	{
+	"release_name":"O-RAN ALLIANCE",
+        "release_value" : "o-ran-alliance",
+	"image_uri" : "o-ran-alliance.png",
+	"image_sz" : "Not set yet",
+        "release_status": "enabled",
+        "release_color": "green",
+        "display_default": "yes",
+	"options" : [
+			{
+			"value" : "overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Overview",
+			"display_str" : "Operator Defined Open and Intelligent Radio Access Networks",
+			"display_default": "no",
+			"status": "enabled"
+			},
+			{
+			"value" : "sw-arch",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Software Architecture",
+			"display_str" : "O-RAN Software Architecture",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		]
+	},
+	{
+	"release_name":"O-RAN Software Community",
+        "release_value" : "o-ran-sc",
+	"image_uri" : "o-ran-sc.png",
+	"image_sz" : "Not set yet",
+        "release_status": "enabled",
+        "release_color": "green",
+        "display_default": "yes",
+	"options" : [
+			{
+			"value" : "overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Overview",
+			"display_str" : "Operator Defined Open and Intelligent Radio Access Networks",
+			"display_default": "no",
+			"status": "enabled"
+			},
+			{
+			"value" : "sw-arch",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Software Architecture",
+			"display_str" : "O-RAN Software Architecture",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		]
+	}
+]
+
+

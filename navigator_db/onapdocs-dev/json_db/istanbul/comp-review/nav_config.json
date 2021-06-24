@@ -1,0 +1,12 @@
+[
+        {
+                "main_title" : "ONAP",
+                "sub_title" : "Documentation Navigator",
+                "sub_title1" : "sub_title1",
+                "sub_title2" : "sub_title2",
+                "onapdocs_release_name" : "3.0",
+                "onapdocs_release_color" : "red",
+                "release_prop_msg" : "This site is not an official ONAP project site. The ONAP documentation can be found<a href=\"https://docs.onap.org/en/guilin/\">here.</a>ONAP is a registered trademark of The Linux Foundation.This dashboard is in Beta and not yet comprehensive/complete. Please send any feedback you may have to the<a href=\"mailto:onap-arc@lists.onap.org\">ONAP Architecture Subcommittee</a> "
+        }
+]
+
