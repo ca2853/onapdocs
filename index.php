@@ -22,8 +22,7 @@
 
 
 <?php
-	/*include 'server.php'; /* format page bitmap coords */
-	include 'php/parse_url.php'; /* format page bitmap coords */
+	 include 'php/parse_url.php';
 ?>
 <HTML>
 <HEAD>
@@ -39,7 +38,7 @@
 
 
 <div id="sub_main_menu_wrapper">
-<center><font size="3"  color="black" style="font-style:italic;background-color:yellow;"><?php include 'php/get_release_prop_msg.php' ?></font></center>
+<center><font size="3"  color="black" style="font-style:italic;background-color:<?php include 'php/get_prop_msg_bg_color.php' ?>;"><?php include 'php/get_release_prop_msg.php' ?></font></center>
 </div>
 
 <H3 id="main_menu_title_large"><center><?php include 'php/get_main_title.php' ?></center></H3>

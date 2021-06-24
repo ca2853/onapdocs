@@ -2,12 +2,17 @@
 	session_start();
       //Put session start at the beginning of the file
 	//ini_set('session.cache_limiter', 'private');
-	//header("Expires: Sat, 01 Jan 2000 00:00:00 GMT"); 
-	//header("Last-Modified: ".gmdate("D, d M Y H:i:s")." GMT"); 
-	//header("Cache-Control: post-check=0, pre-check=0",false);
+	header("Expires: Sat, 01 Jan 2000 00:00:00 GMT"); 
+	header("Last-Modified: ".gmdate("D, d M Y H:i:s")." GMT"); 
+	header("Cache-Control: post-check=0, pre-check=0",false);
 	//session_cache_limiter("must-revalidate");
 
 //echo "In " . __FILE__ . ", Session Name: " . session_name();
+?>
+
+
+<?php
+        include 'php/parse_url.php';
 ?>
 
 <?php 
@@ -23,6 +28,7 @@
 		 */
 		$_SESSION['release'] = $_GET['release'];
 		$_SESSION['doc_type'] = $_GET['doc_type'];
+
 
 	}
 //echo "<<<< DEBUG - in action_page.php >>>> looking for release: (" . $_SESSION['release'] . ")" . PHP_EOL;
