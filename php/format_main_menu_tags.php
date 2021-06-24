@@ -32,6 +32,7 @@ $dir_path = format_db_path();
 
 $area_map_file = "area_map.json";
 $onap_obj_file = $dir_path .  "/"  . $release_name . "/" . $doc_type . "/" . $area_map_file;
+$_SESSION["area_map"] = $onap_obj_file;
 //
 // The follwoing code generates HTML comments to help in debugging
 // viow the HTML source and look for this comment by the <img>  tag

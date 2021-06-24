@@ -46,7 +46,7 @@ ol, ul {
 	padding:20px;
 	margin:0 auto;
 	margin-top:5px;
-	border: 1px solid lightgrey;
+	border: 0px solid lightgrey;
 	/*
 	background-color: PaleGoldenrod;
 	background-color: white;
@@ -295,6 +295,7 @@ canvas-scaling{
 	display: inline-block;
 }
 .image-map-container img {
+        position: relative;
 	display: block;
 }
 .image-map-container .map-selector {

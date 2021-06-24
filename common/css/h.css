@@ -1,0 +1,168 @@
+/* css reset - makes the layout looking good in all browsers */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 5;
+        padding: 5;
+        border: 1px blue;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+        display: block;
+}
+
+body
+{
+        line-height: 2;
+        font:24px/20px Arial;
+        background:#e0f3ff url(bg.png) repeat scroll 0 0;
+}
+
+ol, ul
+{
+        list-style: none;
+}
+
+
+/*
+ * Div
+ */
+
+#main_menu_wrapper{
+        width:820px;
+        padding:20px;
+        margin:0 auto;
+        margin-top:10px;
+        border: 1px solid blue;
+        background-color: lightblue;
+}
+
+#position-main{
+	/*
+	background-color: white;
+	*/
+        width: 900px;
+	/*
+        width: auto;
+	*/
+        height: auto;
+	/*
+        height: auto;
+	*/
+        border: 1px solid green;
+        margin-top:2px;
+        padding:0px;
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+}
+
+#main_menu_title_large{
+        color:black;
+        font-size:30px;
+        font-style:normal;
+        border: 0px solid green;
+        width:450px;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+#main_menu_title_medium{
+        color: #047774;
+        font-size: 20;
+        width: 350px;
+        border: 0px solid #047774;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.25em;
+}
+
+#main_menu_title_small{
+        color:darkblue;
+        font-size:13;
+        width:250px;
+        font-style:italic;
+        border: 0px solid red;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+
+#sub_main_menu_wrapper {
+        width:820px;
+        padding:20px;
+        margin:0 auto;
+        margin-top:5px;
+        border: 0px solid grey;
+        /*
+        border: 2px solid lightgrey;
+        background-color: PaleGoldenrod;
+        background-color: white;
+        */
+        margin-left:auto
+}
+
+
+
+/*
+ *
+ *  Hover CSS
+ *
+ */
+
+.image-map-container {
+	width: 900px;
+        height: auto;
+	/*
+        height: auto;
+	*/
+        border: 1px solid lightgrey;
+        margin-top:2px;
+        padding:0px;
+        margin-left:auto;
+        margin-right:auto;
+	display:block;
+	/*
+	 * "position: relative" is required
+	 * for the hovering to work inside a centered
+	 * screen
+	 * */
+	position: relative;
+}
+.image-map-container img {
+	display:block;
+	/*
+	 * see comment above
+	 */
+	position: relative;
+}
+.image-map-container .map-selector {
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  color:#546E7A00;
+  transition-duration: .3s;
+	transition-timing-function: ease-out;
+	transition-property: top, left, right, bottom, color;
+}
+.image-map-container .map-selector.hover {
+  color:#546E7A80;
+}
+
+.map-selector:after {
+	content: '';
+	position: absolute;
+	background: currentColor;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: inherit;
+	background: currentColor;
+	transition-duration: .3s;
+	/*
+	*/
+	transition-timing-function: ease-out;
+	transition-property: top, left, right, bottom, background;
+	pointer-events: none;
+}

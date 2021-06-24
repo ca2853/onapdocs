@@ -1,5 +1,3 @@
-
-
 <?php 
 //
 // Set the .css file based on what is in the rootdir/css
@@ -21,11 +19,12 @@ $css_basedir="common/css";
 $default_css_file=$css_basedir . "/" . $default_css_file;
 
 $global_css_file=$css_basedir . "/" . $uri_path . "_navigator_sheet.css";
-//
-//$custom_css_file=$css_basedir . "/" . $uri_path . "/" . $_SESSION["doc-type"] . "/" . "_navigator_sheet.css";
+
+#$custom_css_file=$css_basedir . "/" . $uri_path . "/" . $_SESSION["doc-type"] . "/" . "_navigator_sheet.css";
+$custom_css_file=$css_basedir . "/" . $uri_path . "/" . $_SESSION["doc_type"] . "_navigator_sheet.css";
 //echo "custom_css_file: " . $custom_css_file;
 //echo "global: " . $global_css_file;
-//echo $custom_css_file;
+//echo "default: " . $default_css_file;
 
 if (file_exists($custom_css_file)) {
 	echo $custom_css_file;
