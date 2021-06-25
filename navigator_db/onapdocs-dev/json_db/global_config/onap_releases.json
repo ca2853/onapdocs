@@ -1,6 +1,111 @@
 [
 
 	{
+	"release_name":"Amsterdam-R1 - (16-Nov-2017)",
+        "release_value" : "amsterdam",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"Beijing-R2 - (07-Jun-2018)",
+        "release_value" : "beijing",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"Casablanca-R3 - (30-Nov-2018)",
+        "release_value" : "casablanca",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"Dublin-R4 - (06-Jun-2019)",
+        "release_value" : "dublin",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"El Alto-R5 - (10-Oct-2019)",
+        "release_value" : "elalto",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
 	"release_name":"Frankfurt-R6 (04-Jun-2020)",
         "release_value" : "frankfurt",
 	"image_uri" : "https://wiki.onap.org/download/attachments/84651745/master-onap-diagram-frankfurt-sep-04-2020.png?api=v2",
@@ -100,9 +205,9 @@
         "release_value" : "honolulu",
 	"image_uri" : "https://wiki.onap.org/download/attachments/84666957/master-onap-diagram-honolulu-r8-official.png?api=v2",
 	"image_sz" : "Not set yet",
-        "release_status": "disabled",
+        "release_status": "enabled",
         "release_color": "green",
-        "display_default": "yes",
+        "display_default": "no",
 	"options" : [
 			{
 			"value" : "arch-overview",
@@ -177,6 +282,110 @@
 			"name" : "Major ONAP Use Cases",
 			"display_str" : "Major ONAP Use Cases",
 			"display_default": "yes",
+			"status": "enabled"
+			}
+		]
+	},
+	{
+	"release_name":"Jakarta-R10 - (Pre-Plannig - 1H22)",
+        "release_value" : "amsterdam",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"Khon-R11 - (Pre-Plannig - 2H22)",
+        "release_value" : "khon",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"London-R12 - (Pre-Plannig - 1H23)",
+        "release_value" : "london",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"Montreal-R13 - (Pre-Plannig - 2H23)",
+        "release_value" : "montreal",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
+			"status": "enabled"
+			}
+		
+		]
+	},
+	{
+	"release_name":"New Delhi-R14 - (Pre-Plannig - 1H24)",
+        "release_value" : "newdelhi",
+	"image_uri" : "",
+	"image_sz" : "Not set yet",
+        "release_status": "disabled",
+        "release_color": "green",
+        "display_default": "no",
+	"options" : [
+			{
+			"value" : "arch-overview",
+			"image_uri" : "",
+			"image_sz" : "Not set yet",
+			"name" : "Architecture Overview",
+			"display_str" : "Architecture Overview",
+			"display_default": "no",
 			"status": "enabled"
 			}
 		
